@@ -1,0 +1,63 @@
+{{ partial "top" . }}
+
+{{ partial "single_title" . }}
+
+<p class="h4 italic grey-700">{{ .Params.summary }}</p>
+
+{{/*<!-- <a href="{{ .Params.urls.public }}"> -->
+{{ with .Params.screenshot }}
+	{{ if .Params.urls.public }}
+		<a href="{{ . }}">
+	{{ end }}
+	<img
+		class="mt1"
+		alt="{{ $.Params.summary }}"
+		srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
+		        {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
+		        {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w,"
+		src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
+	{{ if .Params.urls.public }}
+		</a>
+	{{ end }}
+{{ else }}
+	<p><a href="{{ .Params.urls.public }}">View the site.</p>
+{{ end }}
+<!-- </a> --> */}}
+
+{{ if .Params.urls.public }}
+	<a href="{{ .Params.urls.public }}">
+	{{ with .Params.screenshot }}
+		<img
+			class="mt1"
+			alt="{{ $.Params.summary }}"
+			srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
+			        {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
+			        {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w,"
+			src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
+	{{ else }}
+		<p>View the site.</p>
+	{{ end }}
+	</a>
+{{ else }}
+	{{ with .Params.screenshot }}
+		<img
+				class="mt1"
+				alt="{{ $.Params.summary }}"
+				srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
+				        {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
+				        {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w,"
+				src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
+	{{ end }}
+{{ end }}
+
+{{ .Content }}
+
+{{ with .Params.urls.source }}
+	<section>
+		<a href="{{ . }}">View project source.</a>
+	</section>
+{{ end }}
+
+{{ partial "prev_next" . }}
+
+{{ partial "bottom" . }}

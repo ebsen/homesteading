@@ -1,0 +1,16 @@
+{{/* template "_default/list.html" . */}}
+
+{{ partial "top" . }}
+
+<!-- <h2>{{ .Section }}</h2> -->
+<!-- <h1>layouts/section/project.html!!</h1> -->
+{{ range .Data.Pages.ByTitle }}
+	<section class="{{ .Section }}">
+		<h2 class="inline-block mb0 h1">
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
+		</h2>
+		<p class="grey-700">{{ .Params.summary }}<p>
+	</section>
+{{ end }}
+
+{{ partial "bottom" . }}

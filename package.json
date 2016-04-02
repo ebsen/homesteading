@@ -1,0 +1,19 @@
+{
+  "name": "homesteading",
+  "version": "1.0.0",
+  "description": "Personal website of Erik Ebsen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Ebsen <erik@ebsen.me>",
+  "license": "ISC",
+  "dependencies": {
+    "basscss": "^7.1.0",
+    "postcss": "^5.0.14",
+    "postcss-cssnext": "^2.4.0"
+  },
+  "scripts": {
+    "start": ""
+  }
+}

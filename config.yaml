@@ -1,0 +1,14 @@
+baseurl: "http://ebsen.me/"
+languageCode: "en-us"
+title: Homesteading
+metaDataFormat: "yaml"
+# permalinks:
+#   post: /:year/:month/:title/
+blackfriday:
+  latexDashes: false
+params:
+  author: Erik Ebsen
+  email: erik@ebsen.me
+  github: ebsen
+  twitter: eriklebsen
+  # about: "I am a Christian, a husband, and a father. I grew up on a farm in South Dakota and, while college periodically took me elsewhere, I live in South Dakota again today. This website is an experiment. It may well fail. I want to strike out and make a place for myself outside the confines of our ever-increasing time-and-privacy-consuming social media. Here goes."

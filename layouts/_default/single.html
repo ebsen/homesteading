@@ -1,0 +1,50 @@
+{{ partial "top" . }}
+
+<h2 class="inline-block h1">
+	{{ .Title }}
+</h2>
+
+<p class="h4 italic grey-700">{{ .Params.summary }}</p>
+
+{{/* if eq .Type "post" }}
+	{{ partial "timestamp" . }}
+{{ end */}}
+
+{{/* if eq .Type "project" */}}
+{{ with .Params.screenshot }}
+	<img
+		class="mt1"
+		alt=""
+		srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
+		        {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
+		        {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w,"
+		src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
+{{ end }}
+
+{{ .Content }}
+
+{{ if eq .Type "post" }}
+	{{ partial "timestamp" . }}
+{{ end }}
+
+{{/* with .Params.urls.source }}
+	<section>
+		<a href="{{ . }}">View project source.</a>
+	</section>
+{{ end */}}
+
+<!-- <div class="mt3 border-top"> -->
+<div class="mt4">
+	{{ with .Prev }}
+		<h4 class="center">&larr;<a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+		<!-- <h4 class="prev-content center"><a href="{{ .Permalink }}">{{ .Title }}</a></h4> -->
+	{{ end }}
+	{{ with .Next }}
+		<h4 class="center"><a href="{{ .Permalink }}">{{ .Title }}</a>&rarr;</h4>
+		<!-- <h4 class="next-content center"><a href="{{ .Permalink }}">{{ .Title }}</a></h4> -->
+	{{ end }}
+</div>
+
+<!-- <code>Default single template!</code> -->
+
+{{ partial "bottom" . }}
