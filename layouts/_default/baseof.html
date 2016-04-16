@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body class="bg-grey-200">
+
+	{{ partial "header.html" . }}
+	<div class="bg-white">
+		<!-- <article class="mx-auto px1 pb3" role="main"> -->
+		<article class="mx-auto px1 pb4" role="main">
+
+			{{ block "main" . }}
+				<!-- This content will be overriden by later templates that define their own "main" block -->
+			{{ end }}
+
+		</article>
+	</div>
+	{{ partial "footer" . }}
+</body>
+</html>
