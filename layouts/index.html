@@ -1,20 +1,15 @@
-{{ partial "top" . }}
-
-{{/* range first 3 (where .Data.Pages "Type" "post") */}}
-{{ range first 3 .Data.Pages }}
-	<section class="">
-		<h2 class="inline-block h1">
-			<a href="{{ .Permalink }}">{{ .Title }}</a>
-		</h2>
-		{{ if eq .Type "project" }}
-			<span class="tag bg-grey-200 ml1 grey-700 rounded">project</span>
-		{{ end }}
-		<p class="h4 italic grey-700">{{ .Params.summary }}</p>
-		{{ .Content }}
-	</section>
-
+{{ define "main" }}
+	{{ range first 3 .Data.Pages }}
+		<section class="">
+			<!-- <h1>Base template!</h1> -->
+			<h2 class="inline-block h1">
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</h2>
+			{{ if eq .Type "project" }}
+				<span class="tag bg-grey-200 ml1 grey-700 rounded">project</span>
+			{{ end }}
+			<p class="h4 italic grey-700">{{ .Params.summary }}</p>
+			{{ .Content }}
+		</section>
+	{{ end }}
 {{ end }}
-
-<!-- <p><a href="/post">More</a></p> -->
-
-{{ partial "bottom" . }}

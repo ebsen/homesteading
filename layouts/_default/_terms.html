@@ -1,0 +1,20 @@
+{{ define "title" -}}
+	Projects &ndash; {{ .Site.Title }}
+{{- end }}
+
+{{ define "main" }}
+	<!-- <h2 class="inline-block mb0 h1">Project Categories</h2> -->
+	{{ $data := .Data }}
+	{{ range $key, $value := .Data.Terms.Alphabetical }}
+		<section class="{{ $key }}">
+			<h2 class="inline-block mb0 h1">
+				<a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a>
+			</h2>
+			<p>
+				{{ range $value.Pages }}
+					<span class="tag bg-grey-200 grey-700 rounded"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+				{{ end }}
+			</p>
+		</section>
+	{{ end }}
+{{ end }}

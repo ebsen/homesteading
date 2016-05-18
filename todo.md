@@ -1,5 +1,8 @@
 # To Do:
-- List project alphabetically rather than chronologically
+
+- Make tags look more like tags?
+
+- List project alphabetically rather than chronologically @done
 - Add a link to the previous and next posts and/or projects
 - redirect from homesteading.me?
 - Look into breadcrumbs
