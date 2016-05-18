@@ -1,24 +1,14 @@
-{{ define "title" }}
+{{ define "title" -}}
 	{{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
-{{ define "main" }}
+{{- end }}
 
-<!-- <h2>{{ .Section }}</h2> -->
+{{ define "main" }}
 	{{ range .Data.Pages }}
 		<section class="{{ .Section }}">
 			<h2 class="inline-block mb0 h1">
 				<a href="{{ .Permalink }}">{{ .Title }}</a>
 			</h2>
-			{{/* if eq .Type "project" }}
-				<!-- Add an .inline-block on the h2 above if you do this -->
-				<span class="tag bg-grey-200 grey-700 rounded">project</span>
-			{{ end */}}
-			{{/* if eq .Type "post" }}
-				{{ partial "timestamp" . }}
-			{{ else */}}
-				<p class="grey-700">{{ .Params.summary }}<p>
-			{{/* end */}}
+			<p class="">{{ .Params.summary }}<p>
 		</section>
 	{{ end }}
-
 {{ end }}
