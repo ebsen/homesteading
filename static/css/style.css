@@ -2,6 +2,10 @@
 	min-height: 64vh;
 }*/
 
+.canary {
+	color: yellow;
+}
+
 article,
 header h1,
 header nav,
