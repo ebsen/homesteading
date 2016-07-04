@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sculpin on Homesteading</title>
+    <link>ebsen.me/categories/sculpin/</link>
+    <description>Recent content in Sculpin on Homesteading</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Mar 2016 10:58:12 -0600</lastBuildDate>
+    <atom:link href="ebsen.me/categories/sculpin/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hobo Day Parade</title>
+      <link>/ebsen.me/project/hobo-day-parade/</link>
+      <pubDate>Sat, 12 Mar 2016 10:58:12 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/hobo-day-parade/</guid>
+      <description>&lt;p&gt;The website for our first-ever live stream of the annual Hobo Day parade.&lt;/p&gt;
+
+&lt;p&gt;Built in just a few days, I used a number of new &lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt; tools. &lt;a href=&#34;http://harpjs.com/&#34;&gt;Harp&lt;/a&gt; produced a local copy of the website (written in two new languages, &lt;a href=&#34;http://jade-lang.com/&#34;&gt;Jade&lt;/a&gt;, and &lt;a href=&#34;http://lesscss.org/&#34;&gt;Less&lt;/a&gt;) while &lt;a href=&#34;http://www.browsersync.io/&#34;&gt;BrowserSync&lt;/a&gt; let me share that website live to the rest of the team while I worked. This project became the template we use to build the majority of static websites today.&lt;/p&gt;
+
+&lt;p&gt;Posts to social media in the weeks leading up to Hobo Day help to build a crescendo around the event and the website, leading to more people (62%) watching the parade&amp;rsquo;s live stream from the website than from YouTube itself. Nearly half of viewers (45%) did so from a mobile device, another record at the time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
