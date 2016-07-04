@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional on Homesteading</title>
+    <link>ebsen.me/categories/professional/</link>
+    <description>Recent content in Professional on Homesteading</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Mar 2016 10:59:05 -0600</lastBuildDate>
+    <atom:link href="ebsen.me/categories/professional/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ag Museum</title>
+      <link>/ebsen.me/project/ag-museum/</link>
+      <pubDate>Sat, 12 Mar 2016 10:59:05 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/ag-museum/</guid>
+      <description>&lt;p&gt;A custom-themed WordPress site built from Photoshop designs. It features a prominent carousel on the homepage and several post types to display information in various places across the site.&lt;/p&gt;
+
+&lt;p&gt;I led a team of myself and two student developers to prototype these designs into code. I chose &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt; as the front-end framework and &lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt; to compile it. These technologies helped us built the site responsively, allowing it to work across difference screen sizes. We then converted the resulting code to work with WordPress.&lt;/p&gt;
+
+&lt;p&gt;This was our first project using responsive design and the above technologies. Today, every project we start is responsive, we have several sites running on WordPress, and we use Node with nearly every website we have.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frosty Ticket 2.0</title>
+      <link>/ebsen.me/project/frosty/</link>
+      <pubDate>Sat, 12 Mar 2016 10:58:42 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/frosty/</guid>
+      <description>&lt;p&gt;As the unit responsible for the university&amp;rsquo;s public web presence, we support about 200 other faculty and staff around campus who regularly edit CommonSpot (and soon, Drupal) or another of our websites in some way. We wanted a way track their requests, both to ensure the work got done but also to build data around how people were using our sites. What common problems did they experience? Where was our documentation failing them?&lt;/p&gt;
+
+&lt;p&gt;As a joke, an earlier version of this tool was temporarily dubbed &amp;ldquo;Frosty Ticket.&amp;rdquo; The name stuck, so when we decided to rebuild this system in Drupal, I knew we had to name it &lt;em&gt;Frosty Ticket 2.0&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In its current state, Frosty Ticket 2.0 is a simple website. You log in, log the tasks you need to do, and mark them off as they&amp;rsquo;re completed. We can note which college or unit a request belongs or assign a task to another user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graduation 2015</title>
+      <link>/ebsen.me/project/graduation-2015/</link>
+      <pubDate>Sat, 12 Mar 2016 10:58:25 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/graduation-2015/</guid>
+      <description>&lt;p&gt;An official university landing page to highlight the accomplishments of our graduating bachelors, masters, and Ph.D. students, including live streams of the commencement ceremonies over YouTube, &lt;a href=&#34;https://youtu.be/VTRt64lE3uQ&#34;&gt;our own original recap video&lt;/a&gt;, and curated Instagram and Twitter posts.&lt;/p&gt;
+
+&lt;p&gt;As our first experience at streaming live video, we needed a lean website that would perform really well. So we opted to go without a database and we optimized common performance bottlenecks to reduce the size of the page.&lt;/p&gt;
+
+&lt;p&gt;I also worked with IT to put together a new way for us to publish the website. This also allows us to much more easily track changes in the code and revert them when bugs are discovered.&lt;/p&gt;
+
+&lt;p&gt;The live stream was a huge success for us, reaching hundreds of people across 26 states and 11 countries and reaching the highest number of mobile viewers (32%) of any university website to date. In the time since, the recap video has reached thousands of viewers.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;//graduation.sdstate.edu&#34;&gt;current iteration of the graduation website&lt;/a&gt; adds &lt;a href=&#34;https://storify.com/SDState/sdstate15&#34;&gt;social media integration through Storify&lt;/a&gt;, &lt;a href=&#34;https://open.spotify.com/user/sdstate/playlist/2xNGtjV0ghaypMHwCmBwfv&#34;&gt;a music playlist from Spotify&lt;/a&gt;, and &lt;a href=&#34;https://www.facebook.com/media/set/?set=a.10152904174661647.1073741842.88914146646&amp;amp;type=1&#34;&gt;a Facebook photo album&lt;/a&gt;. I also scripted our Git deployment process to make publishing and updating the site much simpler.&lt;/p&gt;
+
+&lt;p&gt;Building on success in our 2014, the website reached people in 43 states and 32 countries on commencement day. A strong majority of those visitors (57%) came from mobile, breaking our previous record. The Facebook photo album on the site reached over 100,000 people.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hobo Day Parade</title>
+      <link>/ebsen.me/project/hobo-day-parade/</link>
+      <pubDate>Sat, 12 Mar 2016 10:58:12 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/hobo-day-parade/</guid>
+      <description>&lt;p&gt;The website for our first-ever live stream of the annual Hobo Day parade.&lt;/p&gt;
+
+&lt;p&gt;Built in just a few days, I used a number of new &lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt; tools. &lt;a href=&#34;http://harpjs.com/&#34;&gt;Harp&lt;/a&gt; produced a local copy of the website (written in two new languages, &lt;a href=&#34;http://jade-lang.com/&#34;&gt;Jade&lt;/a&gt;, and &lt;a href=&#34;http://lesscss.org/&#34;&gt;Less&lt;/a&gt;) while &lt;a href=&#34;http://www.browsersync.io/&#34;&gt;BrowserSync&lt;/a&gt; let me share that website live to the rest of the team while I worked. This project became the template we use to build the majority of static websites today.&lt;/p&gt;
+
+&lt;p&gt;Posts to social media in the weeks leading up to Hobo Day help to build a crescendo around the event and the website, leading to more people (62%) watching the parade&amp;rsquo;s live stream from the website than from YouTube itself. Nearly half of viewers (45%) did so from a mobile device, another record at the time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Holiday Video 2014</title>
+      <link>/ebsen.me/project/holiday-2014/</link>
+      <pubDate>Sat, 12 Mar 2016 10:57:38 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/holiday-2014/</guid>
+      <description>&lt;p&gt;At the end of each year, the university publishes a video to highlight the accomplishments made by its faculty and staff. This year, that email campaign also kicked off #WeAreSDState, a campaign to promote the university&amp;rsquo;s value around the region.&lt;/p&gt;
+
+&lt;p&gt;We wanted the website hosting the video to match the email used to distribute it. This led me to experiment with animating backgrounds and cross-fading images in the browser. While the final product didn&amp;rsquo;t ship with these features, they served as excellent reminders that &amp;ldquo;the web&amp;rdquo; isn&amp;rsquo;t the same across screens and devices.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>News Center</title>
+      <link>/ebsen.me/project/news-center/</link>
+      <pubDate>Tue, 05 Jan 2016 21:12:33 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/news-center/</guid>
+      <description>&lt;p&gt;At the time it launched, the News Center represented our team&amp;rsquo;s most significant Drupal website to date and served as a demonstration to the campus community how Drupal could transform how we publish content to the web.&lt;/p&gt;
+
+&lt;p&gt;We spent a great deal of effort with this project to determine the needs of our news writers: what they wanted to accomplish from a news-publishing website, how their current tools were costing them time and effort, and what they wanted from an ideal setup.&lt;/p&gt;
+
+&lt;p&gt;With Drupal&amp;rsquo;s flexibility, we were able to customize the editing experience to make publishing stories and images quicker and less error-prone for the writers. Drupal&amp;rsquo;s powerful &lt;a href=&#34;https://www.drupal.org/project/views&#34;&gt;Views&lt;/a&gt; module also let us customize the website&amp;rsquo;s output, allowing us to categorize stories and display them across the site according to features or magazines printed by the marketing department.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CommonSpot</title>
+      <link>/ebsen.me/project/commonspot/</link>
+      <pubDate>Tue, 05 Jan 2016 21:02:05 -0600</pubDate>
+      
+      <guid>/ebsen.me/project/commonspot/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This spring, we plan to launch our replacement of this site on &lt;a href=&#34;//www.drupal.org&#34;&gt;Drupal&lt;/a&gt;. Read more about our process for this &lt;a href=&#34;//sdstate.edu/cms&#34;&gt;on our site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our main website, &lt;a href=&#34;//www.sdstate.edu&#34;&gt;sdstate.edu&lt;/a&gt;, consists of well over 10,000 pages and 15,000 documents. It is built in a &lt;a href=&#34;//coldfusion.adobe.com/coldfusion/&#34;&gt;ColdFusion&lt;/a&gt;-based CMS, &lt;a href=&#34;//www.paperthin.com/products/commonspot-cms.cfm&#34;&gt;CommonSpot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since taking over responsibility for the site, I have worked with current and prospective students to better understand how they use and interact with the site. This resulted in some short-term improvements to the site but it contributed greatly to our long-term strategy for the web at South Dakota State.&lt;/p&gt;
+
+&lt;p&gt;As we maintain the site, we are also bringing it under version control (&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt;, in this case) to allow us to monitor the changes we make to the code. This, along with the help of our student developer, has allowed us to increase CommonSpot&amp;rsquo;s performance by reducing the necessary code&amp;mdash;sometimes by as much as 50 percent.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

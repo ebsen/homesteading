@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Rock Paper Scissors &ndash; Homesteading</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="author" content="Erik Ebsen">
+<meta name="description" content="I am a Christian, a husband, and a father. Homesteading is both a place to write and a portfolio for my work.">
+
+<meta property="og:site_name" content="Homesteading">
+<meta property="og:title" content="Rock Paper Scissors">
+<meta property="og:description" content="A really basic rock, paper, scissors game to learn more about event handlers and logic in the browser">
+<meta property="og:url" content="/ebsen.me/project/rock-paper-scissors/">
+<meta property="og:type" content="blog">
+
+	<link rel="canonical" href="/ebsen.me/project/rock-paper-scissors/">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/css/bass.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+
+<body class="bg-grey-200">
+
+	<header class="">
+	<div class="bg-brown p1">
+		<h1 class="mt0 mb0 h2">
+			<a class="white no-link-hover" href="/ebsen.me/">Homesteading</a>
+		</h1>
+	</div>
+	<div class="border-bottom bg-grey-200">
+		<nav class="">
+			<a class="btn ml2" href="/post/">Posts</a>
+			<a class="btn" href="/project/">Projects</a>
+			
+		</nav>
+	</div>
+</header>
+
+	<div class="bg-white">
+		
+		<article class="mx-auto px1 pb4" role="main">
+
+			
+
+	<h2 class="inline-block h1">
+	Rock Paper Scissors
+</h2>
+
+	
+	<p class="h4 italic grey-700">A really basic rock, paper, scissors game to learn more about event handlers and logic in the browser</p>
+	
+	
+		<a href="//rockpaperscissors.ebsen.me">
+	
+	
+		<img
+			class="mt1"
+			alt="A really basic rock, paper, scissors game to learn more about event handlers and logic in the browser"
+			srcset="/ebsen.me/images/project/rps-320.png 320w,
+			        /ebsen.me/images/project/rps-640.png 640w,
+			        /ebsen.me/images/project/rps-1280.png 1280w,"
+			src="/ebsen.me/images/project/rps.png">
+	
+	
+		</a>
+	
+
+	<p>Rock, Paper, Scissors is a game many of us learn as children. I thought I could use it to learn more about event handlers and logic in the browser.</p>
+
+<p>The app waits for you to choose between rock, paper, or scissors. Once you do, <a href="https://developer.mozilla.org/en-US/docs/Web/Events">an event fires</a>. That event keeps a note of what you selected, gets the computer to pick, and notifies you whether you won or lost. The event only starts the game and updates the screen with the result. It doesn&rsquo;t know anything about the game itself. For that, we look to the model.</p>
+
+<p>The model contains the all logic for the game. It knows that scissors beats paper, paper beats rock, and so forth. It knows what you selected (because the event shared that information) and it knows how to tell the computer to select either rock, paper, or scissors at random. It then compares those two selections, decides the winner, and gives that information back to the event.</p>
+
+<p>The event updates the page to tell you whether you won, lost, or tied, and goes back to waiting for another selection.</p>
+
+<p>It turns out, programming even very simple logic like &ldquo;rock beats scissors, scissors beats paper, etc&rdquo; can be done in all sorts of ways. I chose to keep the user interface and the game&rsquo;s logic very separate because I know and like the <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Model-View-Controller</a> pattern used in <a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html">iOS programming</a> and web frameworks like <a href="http://backbonejs.org/">Backbone</a>.</p>
+
+
+	
+		<section>
+			<a href="https://github.com/ebsen/rock-paper-scissors">View project source.</a>
+		</section>
+	
+
+	
+<div class="mt4">
+	
+		<h4 class="center">&larr;<a href="/ebsen.me/project/west-boyd-college-connection/">West Boyd College Connection</a></h4>
+		
+		
+	
+	
+		<h4 class="center"><a href="/ebsen.me/post/fuel-gauges-and-practical-ux/">Fuel Gauges and Practical UX</a>&rarr;</h4>
+		
+		
+	
+</div>
+
+
+
+
+		</article>
+	</div>
+	<footer class="pt3 px1 pb1 border-top bg-grey-200">
+	<p>
+		My name is Erik Ebsen. I'm a Christian, a husband, and a father of <del>three</del> <em>four</em>.
+	</p>
+	<p>
+		I work as a web developer for <a href="//sdstate.edu/cms">South Dakota State</a> and <a href="/project">a few little projects on the side</a>.
+	</p>
+	<p>
+		Find me on <a href="//github.com/ebsen">GitHub</a> and (intermittently) <a href="//twitter.com/eriklebsen">Twitter</a>.
+	</p>
+</footer>
+
+</body>
+</html>
