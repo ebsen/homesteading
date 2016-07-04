@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Homesteading</title>
-    <link>ebsen.me/categories/personal/</link>
+    <link>http://ebsen.me/categories/personal/</link>
     <description>Recent content in Personal on Homesteading</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Mar 2016 10:58:51 -0600</lastBuildDate>
-    <atom:link href="ebsen.me/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ebsen.me/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dice</title>
-      <link>/ebsen.me/project/dice/</link>
+      <link>http://ebsen.me/project/dice/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:51 -0600</pubDate>
       
-      <guid>/ebsen.me/project/dice/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This project is deprecated in favor of &lt;a href=&#34;ebsen.me/project/ranger&#34;&gt;Ranger&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://ebsen.me/project/dice/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This project is deprecated in favor of &lt;a href=&#34;http://ebsen.me/project/ranger&#34;&gt;Ranger&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This Fourth of July the family and I visited my parents. There, my mom keeps this huge Disney-themed book of board games. the games all use a digital built-in display instead of dice.  Only one problem: the batteries were dead and we couldn&amp;rsquo;t find any dice in the house.&lt;/p&gt;
 
@@ -31,10 +31,10 @@
     
     <item>
       <title>Game Time</title>
-      <link>/ebsen.me/project/gametime/</link>
+      <link>http://ebsen.me/project/gametime/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:34 -0600</pubDate>
       
-      <guid>/ebsen.me/project/gametime/</guid>
+      <guid>http://ebsen.me/project/gametime/</guid>
       <description>&lt;p&gt;I wanted a super-simple way to keep score at our son&amp;rsquo;s soccer games. The app has two buttons, one for each score. Tap to add a point. Refresh the page to reset both scores to zero.&lt;/p&gt;
 
 &lt;p&gt;To make the buttons easier to tap, I placed them especially large and near the bottom of the screen. To eliminate the tap delay on mobile browsers, I added &lt;a href=&#34;http://ftlabs.github.io/fastclick/&#34;&gt;FastClick&lt;/a&gt;. I also disabled page zooming and the bouncy-scroll thing that Safari does at the bottom of the page. In most cases, these UI features serve a purpose. In this case, they introduce complexity and make those two big obvious buttons just a &lt;em&gt;little&lt;/em&gt; harder to hit.&lt;/p&gt;
@@ -43,11 +43,11 @@
     
     <item>
       <title>Ranger</title>
-      <link>/ebsen.me/project/ranger/</link>
+      <link>http://ebsen.me/project/ranger/</link>
       <pubDate>Sat, 12 Mar 2016 10:57:17 -0600</pubDate>
       
-      <guid>/ebsen.me/project/ranger/</guid>
-      <description>&lt;p&gt;Some time after building &lt;a href=&#34;ebsen.me/project/dice&#34;&gt;Dice&lt;/a&gt;, my wife asked if I could modify it to allow a wider range of possible numbers. So I forked Dice to create Ranger.&lt;/p&gt;
+      <guid>http://ebsen.me/project/ranger/</guid>
+      <description>&lt;p&gt;Some time after building &lt;a href=&#34;http://ebsen.me/project/dice&#34;&gt;Dice&lt;/a&gt;, my wife asked if I could modify it to allow a wider range of possible numbers. So I forked Dice to create Ranger.&lt;/p&gt;
 
 &lt;p&gt;Ranger started just to help her play Bingo with the kids but I hope to get back around it it and rebuild it with &lt;a href=&#34;http://elm-lang.org&#34;&gt;Elm&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -55,10 +55,10 @@
     
     <item>
       <title>West Boyd College Connection</title>
-      <link>/ebsen.me/project/west-boyd-college-connection/</link>
+      <link>http://ebsen.me/project/west-boyd-college-connection/</link>
       <pubDate>Sat, 12 Mar 2016 10:56:07 -0600</pubDate>
       
-      <guid>/ebsen.me/project/west-boyd-college-connection/</guid>
+      <guid>http://ebsen.me/project/west-boyd-college-connection/</guid>
       <description>&lt;p&gt;The West Boyd College Connection is a resource for students primarily in the Nebraska school district beginning their research into post-secondary education. In addition to information on college interviews, applications, and campus visits, the website features a fairly exhaustive catalog of area scholarships.&lt;/p&gt;
 
 &lt;p&gt;Currently, the school&amp;rsquo;s guidance counselor curates this list of scholarships by hand, sorting them by due date. March alone includes roughly a hundred entries. The website is not particularly friendly to mobile displays devices either.&lt;/p&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>Rock Paper Scissors</title>
-      <link>/ebsen.me/project/rock-paper-scissors/</link>
+      <link>http://ebsen.me/project/rock-paper-scissors/</link>
       <pubDate>Sat, 12 Mar 2016 10:54:52 -0600</pubDate>
       
-      <guid>/ebsen.me/project/rock-paper-scissors/</guid>
+      <guid>http://ebsen.me/project/rock-paper-scissors/</guid>
       <description>&lt;p&gt;Rock, Paper, Scissors is a game many of us learn as children. I thought I could use it to learn more about event handlers and logic in the browser.&lt;/p&gt;
 
 &lt;p&gt;The app waits for you to choose between rock, paper, or scissors. Once you do, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Events&#34;&gt;an event fires&lt;/a&gt;. That event keeps a note of what you selected, gets the computer to pick, and notifies you whether you won or lost. The event only starts the game and updates the screen with the result. It doesn&amp;rsquo;t know anything about the game itself. For that, we look to the model.&lt;/p&gt;
@@ -87,10 +87,10 @@
     
     <item>
       <title>Songbook</title>
-      <link>/ebsen.me/project/songbook/</link>
+      <link>http://ebsen.me/project/songbook/</link>
       <pubDate>Tue, 05 Jan 2016 21:13:37 -0600</pubDate>
       
-      <guid>/ebsen.me/project/songbook/</guid>
+      <guid>http://ebsen.me/project/songbook/</guid>
       <description>&lt;p&gt;This project went through a lot of iterations before I finished. It turns out that HTML doesn&amp;rsquo;t really offer any kind semantic markup or even a microformat for song lyrics. This led me to experiment.&lt;/p&gt;
 
 &lt;p&gt;I knew I didn&amp;rsquo;t want to manually update the HTML on every song every time I changed my mind. So I treated the lyrics themselves as data instead of markup. Then, I scripted the output I wanted with &lt;a href=&#34;http://jade-lang.com&#34;&gt;Jade&lt;/a&gt; and fed it the song data.&lt;/p&gt;

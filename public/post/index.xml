@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Homesteading</title>
-    <link>ebsen.me/post/</link>
+    <link>http://ebsen.me/post/</link>
     <description>Recent content in Posts on Homesteading</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jul 2016 13:59:34 -0500</lastBuildDate>
-    <atom:link href="ebsen.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ebsen.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Graduating from College</title>
-      <link>/ebsen.me/post/graduating-from-college/</link>
+      <link>http://ebsen.me/post/graduating-from-college/</link>
       <pubDate>Mon, 04 Jul 2016 13:59:34 -0500</pubDate>
       
-      <guid>/ebsen.me/post/graduating-from-college/</guid>
+      <guid>http://ebsen.me/post/graduating-from-college/</guid>
       <description>&lt;p&gt;Somehow, I expected that leaving &lt;a href=&#34;http://sdstate.edu&#34;&gt;someplace I&amp;rsquo;d worked for nearly eight years&lt;/a&gt; would involve more ceremony. It didn&amp;rsquo;t. I announced that I was leaving and two weeks later, I left. That was pretty much it.&lt;/p&gt;
 
 &lt;p&gt;I programmed at State for years but I also wore a lot of other hats&amp;mdash;like providing technical support and content strategy to the university&amp;rsquo;s editors across campus&amp;mdash;and over time I realized that as much as I like coding and as much success as I think we found with that there, the university needed someone to continue wearing those hats.&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Rethinking Episodes I through III</title>
-      <link>/ebsen.me/post/rethinking-episodes-i-through-iii/</link>
+      <link>http://ebsen.me/post/rethinking-episodes-i-through-iii/</link>
       <pubDate>Sat, 16 Apr 2016 17:26:36 -0500</pubDate>
       
-      <guid>/ebsen.me/post/rethinking-episodes-i-through-iii/</guid>
+      <guid>http://ebsen.me/post/rethinking-episodes-i-through-iii/</guid>
       <description>&lt;!-- Note: With The Force Awakens arriving on iTunes and video earlier this month and the trailer for this year&#39;s Rogue One dropping this week, I thought this made as good a time as any to dust off and finish a post I started around the time that The Force Awakens hit theaters in the US. --&gt;
 
 &lt;p&gt;Like everyone else in the universe, I saw &lt;em&gt;The Force Awakens&lt;/em&gt; over the holidays. The day after, I introduced my son (age six) to &lt;em&gt;Episode I: The Phantom Menace&lt;/em&gt;.&lt;/p&gt;
@@ -55,35 +55,35 @@
     
     <item>
       <title>So Many Projects</title>
-      <link>/ebsen.me/post/so-many-projects/</link>
+      <link>http://ebsen.me/post/so-many-projects/</link>
       <pubDate>Sat, 12 Mar 2016 11:28:03 -0600</pubDate>
       
-      <guid>/ebsen.me/post/so-many-projects/</guid>
+      <guid>http://ebsen.me/post/so-many-projects/</guid>
       <description>&lt;p&gt;Before relaunching it as what it is now, this site served as a portfolio of personal and professional projects. Today, I finally got around to porting (most) of those projects over to this site.&lt;/p&gt;
 
 &lt;p&gt;Some of my personal favorites include:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/graduation-2015&#34;&gt;Graduation 2015&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/hobo-day-parade&#34;&gt;Hobo Day Parade&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/news-center&#34;&gt;News Center&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/songbook&#34;&gt;Songbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/graduation-2015&#34;&gt;Graduation 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/hobo-day-parade&#34;&gt;Hobo Day Parade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/news-center&#34;&gt;News Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/songbook&#34;&gt;Songbook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- In addition to that, I finally corrected my long-standing error of not keeping this site under version control. While I struggle with how to represent everything that ebsen.me has contained, that&#39;s no reason not to track it _somehow_. --&gt;
 
 &lt;!-- I had been dragging my feet on this because I couldn&#39;t decide between trying to self-host this site on a Raspberry Pi or just running it off GitHub Pages. Since my Pi just arrived yesterday, I&#39;ll need to play around with it for awhile before I make that decision. --&gt;
 
-&lt;p&gt;Check out the &lt;a href=&#34;ebsen.me/project&#34;&gt;projects&lt;/a&gt; page for all the details.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;http://ebsen.me/project&#34;&gt;projects&lt;/a&gt; page for all the details.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Fuel Gauges and Practical UX</title>
-      <link>/ebsen.me/post/fuel-gauges-and-practical-ux/</link>
+      <link>http://ebsen.me/post/fuel-gauges-and-practical-ux/</link>
       <pubDate>Tue, 02 Feb 2016 20:26:13 -0600</pubDate>
       
-      <guid>/ebsen.me/post/fuel-gauges-and-practical-ux/</guid>
+      <guid>http://ebsen.me/post/fuel-gauges-and-practical-ux/</guid>
       <description>&lt;p&gt;If I leave the house in the morning with a quarter tank of gas or less in the car, I won&amp;rsquo;t make it home again that night before the low fuel light turns on.&lt;/p&gt;
 
 &lt;p&gt;Like most fuel gauges, the one in my car is linear: with the quarter, half, and three-quarter markers equal distances from each other.&lt;/p&gt;
@@ -104,10 +104,10 @@
     
     <item>
       <title>Pulling the Trigger</title>
-      <link>/ebsen.me/post/pulling-the-trigger/</link>
+      <link>http://ebsen.me/post/pulling-the-trigger/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ebsen.me/post/pulling-the-trigger/</guid>
+      <guid>http://ebsen.me/post/pulling-the-trigger/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve owned this domain for quite awhile. Every few years, I rebuild the website here and then let it sit mostly dormant until whenever I get around to completely rebuilding it again.&lt;/p&gt;
 
 &lt;p&gt;And yet, I&amp;rsquo;ve been writing this entire time. I just haven&amp;rsquo;t been &lt;em&gt;publishing&lt;/em&gt;.&lt;/p&gt;

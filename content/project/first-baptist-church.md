@@ -10,19 +10,15 @@ urls:
   source: false
 ---
 
-When we research a church, we look for a few general things:
+Our family started looking for a new church last summer. Very quickly, we determined that two pieces of information matter very much on a church website:
 
-When we started looking for chuches in our area, we wanted to know a few simple things right up front:
+- What does the church (proclaim to) believe?
+- When is the service?
 
-- What do you believe?
-- When is the worship service?
+For us, this information conveys the basics. So when we settled into a local Baptist church, I offered to make them their first website.
 
-So when we found a chuch we liked, 
+Fresh from our experience researching churches, I put the when and where information front and center. Deeper information like the [belief statement](http://www.firstbaptistwhite.org/what-we-believe/) and [church history](http://www.firstbaptistwhite.org/history/) are available from the menu. Contact information is persistent throughout, helping to make sure you can reach out if needed. More recently, I included an [events calendar](http://www.firstbaptistwhite.org/new-events/) and the ability to post [audio messages](http://www.firstbaptistwhite.org/messages/) when we host outside speakers.
 
-We're hardly the only family that prefers to research a church a little before visiting (or even to find out when we _can_ visit), I offered to help them build one.
+Building the site with [Squarespace](//squarespace.com) made the project very simple. Most of the work was simply talking through the goals we wanted to achieve with the site and assembling the resulting content into a sensible, straightforward information architecture. Squarespace already includes all the features we wanted--like a map, event calendar, and audio player.
 
-Since finding the when and where church service is most important (for newcomers), I put that information front and center. Deeper information like the [belief statement](http://www.firstbaptistwhite.org/what-we-believe/) and [church history](http://www.firstbaptistwhite.org/history/) are available from the menu. Contact information is persistent throughout, helping to make sure you can reach out if needed. I also included an [events calendar](http://www.firstbaptistwhite.org/new-events/) and the ability to post [audio messages](http://www.firstbaptistwhite.org/messages/) when we host outside speakers.
-
-Building the site with [Squarespace](//squarespace.com) made the project very simple. Most of the work was simply talking through the goals we wanted to achieve with the site and assembling the resulting content into a sensible, straightforward information architecture. Squarespace already included everything we wanted, like a map, event calendar, and audio player.
-
-We're a friendly church. I promise. If you're in the area, drop by! 
+We're a friendly church, I promise. If you're in the Brookings area, drop by!

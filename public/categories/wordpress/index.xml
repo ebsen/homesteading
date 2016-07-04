@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on Homesteading</title>
-    <link>ebsen.me/categories/wordpress/</link>
+    <link>http://ebsen.me/categories/wordpress/</link>
     <description>Recent content in Wordpress on Homesteading</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Mar 2016 10:59:05 -0600</lastBuildDate>
-    <atom:link href="ebsen.me/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ebsen.me/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ag Museum</title>
-      <link>/ebsen.me/project/ag-museum/</link>
+      <link>http://ebsen.me/project/ag-museum/</link>
       <pubDate>Sat, 12 Mar 2016 10:59:05 -0600</pubDate>
       
-      <guid>/ebsen.me/project/ag-museum/</guid>
+      <guid>http://ebsen.me/project/ag-museum/</guid>
       <description>&lt;p&gt;A custom-themed WordPress site built from Photoshop designs. It features a prominent carousel on the homepage and several post types to display information in various places across the site.&lt;/p&gt;
 
 &lt;p&gt;I led a team of myself and two student developers to prototype these designs into code. I chose &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt; as the front-end framework and &lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt; to compile it. These technologies helped us built the site responsively, allowing it to work across difference screen sizes. We then converted the resulting code to work with WordPress.&lt;/p&gt;

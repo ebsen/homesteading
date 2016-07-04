@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homesteading</title>
-    <link>ebsen.me/</link>
+    <link>http://ebsen.me/</link>
     <description>Recent content on Homesteading</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jul 2016 13:59:34 -0500</lastBuildDate>
-    <atom:link href="ebsen.me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ebsen.me/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Graduating from College</title>
-      <link>/ebsen.me/post/graduating-from-college/</link>
+      <link>http://ebsen.me/post/graduating-from-college/</link>
       <pubDate>Mon, 04 Jul 2016 13:59:34 -0500</pubDate>
       
-      <guid>/ebsen.me/post/graduating-from-college/</guid>
+      <guid>http://ebsen.me/post/graduating-from-college/</guid>
       <description>&lt;p&gt;Somehow, I expected that leaving &lt;a href=&#34;http://sdstate.edu&#34;&gt;someplace I&amp;rsquo;d worked for nearly eight years&lt;/a&gt; would involve more ceremony. It didn&amp;rsquo;t. I announced that I was leaving and two weeks later, I left. That was pretty much it.&lt;/p&gt;
 
 &lt;p&gt;I programmed at State for years but I also wore a lot of other hats&amp;mdash;like providing technical support and content strategy to the university&amp;rsquo;s editors across campus&amp;mdash;and over time I realized that as much as I like coding and as much success as I think we found with that there, the university needed someone to continue wearing those hats.&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Rethinking Episodes I through III</title>
-      <link>/ebsen.me/post/rethinking-episodes-i-through-iii/</link>
+      <link>http://ebsen.me/post/rethinking-episodes-i-through-iii/</link>
       <pubDate>Sat, 16 Apr 2016 17:26:36 -0500</pubDate>
       
-      <guid>/ebsen.me/post/rethinking-episodes-i-through-iii/</guid>
+      <guid>http://ebsen.me/post/rethinking-episodes-i-through-iii/</guid>
       <description>&lt;!-- Note: With The Force Awakens arriving on iTunes and video earlier this month and the trailer for this year&#39;s Rogue One dropping this week, I thought this made as good a time as any to dust off and finish a post I started around the time that The Force Awakens hit theaters in the US. --&gt;
 
 &lt;p&gt;Like everyone else in the universe, I saw &lt;em&gt;The Force Awakens&lt;/em&gt; over the holidays. The day after, I introduced my son (age six) to &lt;em&gt;Episode I: The Phantom Menace&lt;/em&gt;.&lt;/p&gt;
@@ -55,35 +55,35 @@
     
     <item>
       <title>So Many Projects</title>
-      <link>/ebsen.me/post/so-many-projects/</link>
+      <link>http://ebsen.me/post/so-many-projects/</link>
       <pubDate>Sat, 12 Mar 2016 11:28:03 -0600</pubDate>
       
-      <guid>/ebsen.me/post/so-many-projects/</guid>
+      <guid>http://ebsen.me/post/so-many-projects/</guid>
       <description>&lt;p&gt;Before relaunching it as what it is now, this site served as a portfolio of personal and professional projects. Today, I finally got around to porting (most) of those projects over to this site.&lt;/p&gt;
 
 &lt;p&gt;Some of my personal favorites include:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/graduation-2015&#34;&gt;Graduation 2015&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/hobo-day-parade&#34;&gt;Hobo Day Parade&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/news-center&#34;&gt;News Center&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;ebsen.me/project/songbook&#34;&gt;Songbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/graduation-2015&#34;&gt;Graduation 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/hobo-day-parade&#34;&gt;Hobo Day Parade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/news-center&#34;&gt;News Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ebsen.me/project/songbook&#34;&gt;Songbook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- In addition to that, I finally corrected my long-standing error of not keeping this site under version control. While I struggle with how to represent everything that ebsen.me has contained, that&#39;s no reason not to track it _somehow_. --&gt;
 
 &lt;!-- I had been dragging my feet on this because I couldn&#39;t decide between trying to self-host this site on a Raspberry Pi or just running it off GitHub Pages. Since my Pi just arrived yesterday, I&#39;ll need to play around with it for awhile before I make that decision. --&gt;
 
-&lt;p&gt;Check out the &lt;a href=&#34;ebsen.me/project&#34;&gt;projects&lt;/a&gt; page for all the details.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;http://ebsen.me/project&#34;&gt;projects&lt;/a&gt; page for all the details.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ag Museum</title>
-      <link>/ebsen.me/project/ag-museum/</link>
+      <link>http://ebsen.me/project/ag-museum/</link>
       <pubDate>Sat, 12 Mar 2016 10:59:05 -0600</pubDate>
       
-      <guid>/ebsen.me/project/ag-museum/</guid>
+      <guid>http://ebsen.me/project/ag-museum/</guid>
       <description>&lt;p&gt;A custom-themed WordPress site built from Photoshop designs. It features a prominent carousel on the homepage and several post types to display information in various places across the site.&lt;/p&gt;
 
 &lt;p&gt;I led a team of myself and two student developers to prototype these designs into code. I chose &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt; as the front-end framework and &lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt; to compile it. These technologies helped us built the site responsively, allowing it to work across difference screen sizes. We then converted the resulting code to work with WordPress.&lt;/p&gt;
@@ -94,11 +94,11 @@
     
     <item>
       <title>Dice</title>
-      <link>/ebsen.me/project/dice/</link>
+      <link>http://ebsen.me/project/dice/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:51 -0600</pubDate>
       
-      <guid>/ebsen.me/project/dice/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This project is deprecated in favor of &lt;a href=&#34;ebsen.me/project/ranger&#34;&gt;Ranger&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://ebsen.me/project/dice/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This project is deprecated in favor of &lt;a href=&#34;http://ebsen.me/project/ranger&#34;&gt;Ranger&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This Fourth of July the family and I visited my parents. There, my mom keeps this huge Disney-themed book of board games. the games all use a digital built-in display instead of dice.  Only one problem: the batteries were dead and we couldn&amp;rsquo;t find any dice in the house.&lt;/p&gt;
 
@@ -114,10 +114,10 @@
     
     <item>
       <title>Frosty Ticket 2.0</title>
-      <link>/ebsen.me/project/frosty/</link>
+      <link>http://ebsen.me/project/frosty/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:42 -0600</pubDate>
       
-      <guid>/ebsen.me/project/frosty/</guid>
+      <guid>http://ebsen.me/project/frosty/</guid>
       <description>&lt;p&gt;As the unit responsible for the university&amp;rsquo;s public web presence, we support about 200 other faculty and staff around campus who regularly edit CommonSpot (and soon, Drupal) or another of our websites in some way. We wanted a way track their requests, both to ensure the work got done but also to build data around how people were using our sites. What common problems did they experience? Where was our documentation failing them?&lt;/p&gt;
 
 &lt;p&gt;As a joke, an earlier version of this tool was temporarily dubbed &amp;ldquo;Frosty Ticket.&amp;rdquo; The name stuck, so when we decided to rebuild this system in Drupal, I knew we had to name it &lt;em&gt;Frosty Ticket 2.0&lt;/em&gt;.&lt;/p&gt;
@@ -128,10 +128,10 @@
     
     <item>
       <title>Game Time</title>
-      <link>/ebsen.me/project/gametime/</link>
+      <link>http://ebsen.me/project/gametime/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:34 -0600</pubDate>
       
-      <guid>/ebsen.me/project/gametime/</guid>
+      <guid>http://ebsen.me/project/gametime/</guid>
       <description>&lt;p&gt;I wanted a super-simple way to keep score at our son&amp;rsquo;s soccer games. The app has two buttons, one for each score. Tap to add a point. Refresh the page to reset both scores to zero.&lt;/p&gt;
 
 &lt;p&gt;To make the buttons easier to tap, I placed them especially large and near the bottom of the screen. To eliminate the tap delay on mobile browsers, I added &lt;a href=&#34;http://ftlabs.github.io/fastclick/&#34;&gt;FastClick&lt;/a&gt;. I also disabled page zooming and the bouncy-scroll thing that Safari does at the bottom of the page. In most cases, these UI features serve a purpose. In this case, they introduce complexity and make those two big obvious buttons just a &lt;em&gt;little&lt;/em&gt; harder to hit.&lt;/p&gt;
@@ -140,10 +140,10 @@
     
     <item>
       <title>Graduation 2015</title>
-      <link>/ebsen.me/project/graduation-2015/</link>
+      <link>http://ebsen.me/project/graduation-2015/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:25 -0600</pubDate>
       
-      <guid>/ebsen.me/project/graduation-2015/</guid>
+      <guid>http://ebsen.me/project/graduation-2015/</guid>
       <description>&lt;p&gt;An official university landing page to highlight the accomplishments of our graduating bachelors, masters, and Ph.D. students, including live streams of the commencement ceremonies over YouTube, &lt;a href=&#34;https://youtu.be/VTRt64lE3uQ&#34;&gt;our own original recap video&lt;/a&gt;, and curated Instagram and Twitter posts.&lt;/p&gt;
 
 &lt;p&gt;As our first experience at streaming live video, we needed a lean website that would perform really well. So we opted to go without a database and we optimized common performance bottlenecks to reduce the size of the page.&lt;/p&gt;
@@ -160,10 +160,10 @@
     
     <item>
       <title>Hobo Day Parade</title>
-      <link>/ebsen.me/project/hobo-day-parade/</link>
+      <link>http://ebsen.me/project/hobo-day-parade/</link>
       <pubDate>Sat, 12 Mar 2016 10:58:12 -0600</pubDate>
       
-      <guid>/ebsen.me/project/hobo-day-parade/</guid>
+      <guid>http://ebsen.me/project/hobo-day-parade/</guid>
       <description>&lt;p&gt;The website for our first-ever live stream of the annual Hobo Day parade.&lt;/p&gt;
 
 &lt;p&gt;Built in just a few days, I used a number of new &lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt; tools. &lt;a href=&#34;http://harpjs.com/&#34;&gt;Harp&lt;/a&gt; produced a local copy of the website (written in two new languages, &lt;a href=&#34;http://jade-lang.com/&#34;&gt;Jade&lt;/a&gt;, and &lt;a href=&#34;http://lesscss.org/&#34;&gt;Less&lt;/a&gt;) while &lt;a href=&#34;http://www.browsersync.io/&#34;&gt;BrowserSync&lt;/a&gt; let me share that website live to the rest of the team while I worked. This project became the template we use to build the majority of static websites today.&lt;/p&gt;
@@ -174,10 +174,10 @@
     
     <item>
       <title>Holiday Video 2014</title>
-      <link>/ebsen.me/project/holiday-2014/</link>
+      <link>http://ebsen.me/project/holiday-2014/</link>
       <pubDate>Sat, 12 Mar 2016 10:57:38 -0600</pubDate>
       
-      <guid>/ebsen.me/project/holiday-2014/</guid>
+      <guid>http://ebsen.me/project/holiday-2014/</guid>
       <description>&lt;p&gt;At the end of each year, the university publishes a video to highlight the accomplishments made by its faculty and staff. This year, that email campaign also kicked off #WeAreSDState, a campaign to promote the university&amp;rsquo;s value around the region.&lt;/p&gt;
 
 &lt;p&gt;We wanted the website hosting the video to match the email used to distribute it. This led me to experiment with animating backgrounds and cross-fading images in the browser. While the final product didn&amp;rsquo;t ship with these features, they served as excellent reminders that &amp;ldquo;the web&amp;rdquo; isn&amp;rsquo;t the same across screens and devices.&lt;/p&gt;
@@ -186,11 +186,11 @@
     
     <item>
       <title>Ranger</title>
-      <link>/ebsen.me/project/ranger/</link>
+      <link>http://ebsen.me/project/ranger/</link>
       <pubDate>Sat, 12 Mar 2016 10:57:17 -0600</pubDate>
       
-      <guid>/ebsen.me/project/ranger/</guid>
-      <description>&lt;p&gt;Some time after building &lt;a href=&#34;ebsen.me/project/dice&#34;&gt;Dice&lt;/a&gt;, my wife asked if I could modify it to allow a wider range of possible numbers. So I forked Dice to create Ranger.&lt;/p&gt;
+      <guid>http://ebsen.me/project/ranger/</guid>
+      <description>&lt;p&gt;Some time after building &lt;a href=&#34;http://ebsen.me/project/dice&#34;&gt;Dice&lt;/a&gt;, my wife asked if I could modify it to allow a wider range of possible numbers. So I forked Dice to create Ranger.&lt;/p&gt;
 
 &lt;p&gt;Ranger started just to help her play Bingo with the kids but I hope to get back around it it and rebuild it with &lt;a href=&#34;http://elm-lang.org&#34;&gt;Elm&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -198,10 +198,10 @@
     
     <item>
       <title>West Boyd College Connection</title>
-      <link>/ebsen.me/project/west-boyd-college-connection/</link>
+      <link>http://ebsen.me/project/west-boyd-college-connection/</link>
       <pubDate>Sat, 12 Mar 2016 10:56:07 -0600</pubDate>
       
-      <guid>/ebsen.me/project/west-boyd-college-connection/</guid>
+      <guid>http://ebsen.me/project/west-boyd-college-connection/</guid>
       <description>&lt;p&gt;The West Boyd College Connection is a resource for students primarily in the Nebraska school district beginning their research into post-secondary education. In addition to information on college interviews, applications, and campus visits, the website features a fairly exhaustive catalog of area scholarships.&lt;/p&gt;
 
 &lt;p&gt;Currently, the school&amp;rsquo;s guidance counselor curates this list of scholarships by hand, sorting them by due date. March alone includes roughly a hundred entries. The website is not particularly friendly to mobile displays devices either.&lt;/p&gt;
@@ -212,10 +212,10 @@
     
     <item>
       <title>Rock Paper Scissors</title>
-      <link>/ebsen.me/project/rock-paper-scissors/</link>
+      <link>http://ebsen.me/project/rock-paper-scissors/</link>
       <pubDate>Sat, 12 Mar 2016 10:54:52 -0600</pubDate>
       
-      <guid>/ebsen.me/project/rock-paper-scissors/</guid>
+      <guid>http://ebsen.me/project/rock-paper-scissors/</guid>
       <description>&lt;p&gt;Rock, Paper, Scissors is a game many of us learn as children. I thought I could use it to learn more about event handlers and logic in the browser.&lt;/p&gt;
 
 &lt;p&gt;The app waits for you to choose between rock, paper, or scissors. Once you do, &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Events&#34;&gt;an event fires&lt;/a&gt;. That event keeps a note of what you selected, gets the computer to pick, and notifies you whether you won or lost. The event only starts the game and updates the screen with the result. It doesn&amp;rsquo;t know anything about the game itself. For that, we look to the model.&lt;/p&gt;
@@ -230,10 +230,10 @@
     
     <item>
       <title>Fuel Gauges and Practical UX</title>
-      <link>/ebsen.me/post/fuel-gauges-and-practical-ux/</link>
+      <link>http://ebsen.me/post/fuel-gauges-and-practical-ux/</link>
       <pubDate>Tue, 02 Feb 2016 20:26:13 -0600</pubDate>
       
-      <guid>/ebsen.me/post/fuel-gauges-and-practical-ux/</guid>
+      <guid>http://ebsen.me/post/fuel-gauges-and-practical-ux/</guid>
       <description>&lt;p&gt;If I leave the house in the morning with a quarter tank of gas or less in the car, I won&amp;rsquo;t make it home again that night before the low fuel light turns on.&lt;/p&gt;
 
 &lt;p&gt;Like most fuel gauges, the one in my car is linear: with the quarter, half, and three-quarter markers equal distances from each other.&lt;/p&gt;
@@ -254,10 +254,10 @@
     
     <item>
       <title>Pulling the Trigger</title>
-      <link>/ebsen.me/post/pulling-the-trigger/</link>
+      <link>http://ebsen.me/post/pulling-the-trigger/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ebsen.me/post/pulling-the-trigger/</guid>
+      <guid>http://ebsen.me/post/pulling-the-trigger/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve owned this domain for quite awhile. Every few years, I rebuild the website here and then let it sit mostly dormant until whenever I get around to completely rebuilding it again.&lt;/p&gt;
 
 &lt;p&gt;And yet, I&amp;rsquo;ve been writing this entire time. I just haven&amp;rsquo;t been &lt;em&gt;publishing&lt;/em&gt;.&lt;/p&gt;
