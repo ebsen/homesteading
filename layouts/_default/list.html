@@ -3,9 +3,12 @@
 {{- end }}
 
 {{ define "main" }}
+	<!-- <h1>List!</h1> -->
+	<!-- {{ partial "breadcrumbs.html" . }} -->
+	<!-- <h1 class="m-b-3">{{ .Title }}</h1> -->
 	{{ range .Data.Pages }}
 		<section class="{{ .Section }}">
-			<h2 class="inline-block mb0 h1">
+			<h2 class="">
 				<a href="{{ .Permalink }}">{{ .Title }}</a>
 			</h2>
 			<p class="">{{ .Params.summary }}<p>

@@ -5,13 +5,13 @@
 {{ define "main" }}
 	{{ range .Data.Pages.ByTitle }}
 		<section class="{{ .Section }}">
-			<h2 class="inline-block mb0 h1">
+			<h2 class="m-b-1">
 				<a href="{{ .Permalink }}">{{ .Title }}</a>
 			</h2>
 			<p class="">{{ .Params.summary }}</p>
 			<p>
 				{{ range .Params.categories }}
-					<span class="tag bg-grey-200 grey-700 rounded"><a href="/categories/{{ . | urlize }}">{{ . }}</a></span>
+					<a class="label label-default" href="/categories/{{ . | urlize }}">{{ . }}</a>
 				{{ end }}
 			</p>
 		</section>

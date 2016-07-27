@@ -1,0 +1,17 @@
+{{ define "title" -}}
+	{{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+	<!-- <h4>{{ .Data.Singular }}</h4> -->
+	<h2>{{ .Title }}</h2>
+	<ul>
+		{{ range .Data.Pages }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+{{ end }}
+
+{{ define "scripts" }}
+	{{ partial "active_projects" . }}
+{{ end }}

@@ -1,8 +1,4 @@
-<div class="border-bottom bg-grey-200">
-	<nav class="">
-		<a class="btn" href="#">{{ .Section | title }} <span class="grey">&rsaquo;</span> {{ .Title }}</a>
-		<a class="btn ml2 bg-brown-700 white" href="/post/">Posts</a>
-		<a class="btn bg-brown-700 white" href="/project/">Projects</a>
-		<!-- <a class="btn" href="/about">About</a> -->
-	</nav>
-</div>
+<ol class="breadcrumb m-b-3" style="border-radius: 0">
+	<li><a href="{{ .Site.BaseURL }}">Home</a></li>
+	<li><a href="/{{ .Section }}">{{ .Section | title  | pluralize }}</a></li>
+</ol>

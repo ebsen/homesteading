@@ -3,9 +3,11 @@
 {{- end }}
 
 {{ define "main" }}
+<!-- <div class="container m-b-3"> -->
 	{{ partial "single_title" . }}
-	<p class="h4 italic grey-700">{{ .Params.summary }}</p>
+	<p class="lead">{{ .Params.summary }}</p>
 	{{ .Content }}
 	{{ partial "timestamp" . }}
-	{{ partial "prev_next" . }}
+	<!-- {{ partial "prev_next" . }} -->
+<!-- </div> -->
 {{ end }}

@@ -20,6 +20,7 @@ what about a conditional `links` partial that checks if running in development o
 &larr; and &rarr;
 &lsaquo; and &rsaquo; (›)
 &#10087;
+::before { content: "\EA06"; } <!-- Codecademy -->
 
 
 - Set open graph metadata on templates.

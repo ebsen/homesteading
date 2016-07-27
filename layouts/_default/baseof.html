@@ -10,23 +10,24 @@
 	</title>
 	{{ partial "meta.html" . }}
 	<link rel="canonical" href="{{ .Permalink }}">
-	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/css/bass.css">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,500,700' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
-
-<body class="bg-grey-200">
-
+<body>
 	{{ partial "header.html" . }}
-	<div class="bg-white">
-		<!-- <article class="mx-auto px1 pb3" role="main"> -->
-		<article class="mx-auto px1 pb4" role="main">
-
-			{{ block "main" . }}{{ end }}
-
-		</article>
-	</div>
+	<!-- <article class="container m-b-3"> -->
+	<article class="container">
+		<!-- {{ block "breadcrumb" . }} -->
+		<!-- 	{{ partial "breadcrumbs.html" . }} -->
+		<!-- {{ end }} -->
+		{{ block "main" . }}{{ end }}
+	</article>
 	{{ partial "footer" . }}
+	{{ block "scripts" . }}
+		<script>
+			document.querySelector('#nav-{{ .Title | lower }}').className += ' active';
+		</script>
+	{{ end }}
 </body>
 </html>

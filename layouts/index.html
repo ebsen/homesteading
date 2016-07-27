@@ -1,15 +1,17 @@
 {{ define "main" }}
+<!-- <div class="container"> -->
+	<!-- {{ partial "breadcrumbs.html" . }} -->
 	{{ range first 3 .Data.Pages }}
-		<section class="">
-			<!-- <h1>Base template!</h1> -->
-			<h2 class="inline-block h1">
+		<section class="m-b-3">
+			<h2 class="m-b-1">
 				<a href="{{ .Permalink }}">{{ .Title }}</a>
+				{{- if eq .Type "project" -}}
+					<span class="label label-default">project</span>
+				{{- end -}}
 			</h2>
-			{{ if eq .Type "project" }}
-				<span class="tag bg-grey-200 ml1 grey-700 rounded">project</span>
-			{{ end }}
-			<p class="h4 italic grey-700">{{ .Params.summary }}</p>
+			<p class="lead">{{ .Params.summary }}</p>
 			{{ .Content }}
 		</section>
 	{{ end }}
+<!-- </div> -->
 {{ end }}
