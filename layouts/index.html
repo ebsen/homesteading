@@ -1,17 +1,35 @@
+{{ define "title" }}
+	<title>{{ .Site.Title }}</title>
+{{ end }}
+
 {{ define "main" }}
-<!-- <div class="container"> -->
-	<!-- {{ partial "breadcrumbs.html" . }} -->
-	{{ range first 3 .Data.Pages }}
-		<section class="m-b-3">
-			<h2 class="m-b-1">
-				<a href="{{ .Permalink }}">{{ .Title }}</a>
-				{{- if eq .Type "project" -}}
-					<span class="label label-default">project</span>
-				{{- end -}}
-			</h2>
+{{ range first 1 .Data.Pages }}
+<section>
+	<h2 class="m-b-3">
+		<a href="{{ .Permalink }}">{{ .Title }}</a>
+	</h2>
+	<p class="lead">{{ .Params.summary }}</p>
+	{{ .Content }}
+</section>
+{{ end }}
+<div class="row">
+	<section class="col-sm-6 m-b-3">
+		<h3 class="m-b-1">Recent posts</h3>
+		{{ range where .Data.Pages "Section" "post" }}
+		<section class="{{ .Section }}">
+			<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 			<p class="lead">{{ .Params.summary }}</p>
-			{{ .Content }}
+		</section>	
+		{{ end }}
+	</section>
+	<section class="col-sm-5 m-b-3">
+		<h3 class="m-b-1">Recent projects</h3>
+		{{ range where .Data.Pages "Section" "project" }}
+		<section class="{{ .Section }}">
+			<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+			<p class="lead">{{ .Params.summary }}</p>
 		</section>
-	{{ end }}
-<!-- </div> -->
+		{{ end }}
+	</section>
+</div>
 {{ end }}
