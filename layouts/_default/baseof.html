@@ -6,17 +6,17 @@
 	{{ block "title" . }}
 		<title>{{ .Title }} &ndash; {{ .Site.Title }}</title>
 	{{ end }}
-	{{ partial "meta.html" . }}
+	{{ partial "meta" . }}
 	<link rel="canonical" href="{{ .Permalink }}">
 	<!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,500,700' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="/css/custom.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/css/custom.css"> -->
 </head>
 
 <body>
-	{{ partial "header.html" . }}
-	<article class="container">
-		{{ block "main" . }}{{ end }}
+	{{ partial "header" . }}
+	<article class="container m-b-3" role="main">
+	{{ block "main" . }}{{ end }}
 	</article>
 	{{ partial "footer" . }}
 	{{ block "scripts" . }}

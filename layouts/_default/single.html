@@ -1,1 +1,34 @@
-<h1>Default single template</h1>
+{{ define "main" }}
+<!-- <em>layouts/_default/single.html</em> -->
+{{ if eq .Section "project" }}
+<img class="img-fluid img-center"
+       alt="{{ .Params.summary }}"
+		srcset="{{ .Site.BaseURL }}images/project/{{ .Params.screenshot }}-320.png 320w,
+		        {{ .Site.BaseURL }}images/project/{{ .Params.screenshot }}-640.png 640w,
+		        {{ .Site.BaseURL }}images/project/{{ .Params.screenshot }}-1280.png 1280w,"
+		   src="{{ .Site.BaseURL }}images/project/{{ .Params.screenshot }}.png">
+{{ end}}
+<h1>{{ .Title }}</h1>
+<p class="lead">{{ .Params.summary }}</p>
+{{ .Content }}
+{{ if eq .Section "project" }}
+<aside class="card">
+	<div class="card-block">
+		<h2 class="card-title">Details</h2>
+		<a class="card-link" href="#">View the site.</a>
+		<a class="card-link" href="#">View the source.</a>
+	</div>
+	<div class="card-block">
+		<h3>Categories</h3>
+		<a class="card-link" href="#">tag</a>
+		<a class="card-link" href="#">tag</a>
+		<a class="card-link" href="#">tag</a>
+		<a class="card-link" href="#">tag</a>
+		<a class="card-link" href="#">tag</a>
+	</div>
+</aside>
+{{ end }}
+{{ if eq .Section "post" -}}
+	{{ partial "timestamp" . }}
+{{- end }}
+{{ end }}

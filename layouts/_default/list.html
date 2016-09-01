@@ -1,14 +1,15 @@
-
 {{ define "main" }}
-	<h1>List!</h1>
-	<!-- {{ partial "breadcrumbs.html" . }} -->
-	<!-- <h1 class="m-b-3">{{ .Title }}</h1> -->
-	{{ range .Data.Pages }}
-		<section class="{{ .Section }}">
-			<h2 class="">
-				<a href="{{ .Permalink }}">{{ .Title }}</a>
-			</h2>
-			<p class="">{{ .Params.summary }}<p>
-		</section>
+<!-- <em>_default/list.html</em> -->
+<!-- <h1>{{ .Title }}</h1> -->
+{{ range .Data.Pages }}
+<section class="{{ .Section }}">
+	<h2 class="m-t-3">
+		<a href="{{ .Permalink }}">{{ .Title }}</a>
+	</h2>
+	<p class="">{{ .Params.summary }}<p>
+	{{ if eq .Section "post" }}
+		{{ partial "timestamp" . }}
 	{{ end }}
+</section>
+{{ end }}
 {{ end }}

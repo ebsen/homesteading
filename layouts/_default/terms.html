@@ -1,32 +1,5 @@
-{{ define "title" -}}
-	Projects &ndash; {{ .Site.Title }}
-{{- end }}
-
-{{ define "breadcrumb" }}	
-	<ol class="breadcrumb m-b-3" style="border-radius: 0">
-		<li><a href="{{ .Site.BaseURL }}">Home</a></li>
-		<li><a href="{{ .Site.BaseURL }}">Categories</a></li>
-		<li class="active">{{ .Title }}</li>
-	</ol>
-{{ end }}
-
 {{ define "main" }}
-<!-- <h1>Terms</h1> -->
+<h1>{{ .Title }}</h1>
 	<!-- <h2 class="inline-block mb0 h1">Project Categories</h2> -->
-	{{ $data := .Data }}
-	{{ range $key, $value := .Data.Terms.Alphabetical }}
-		<section class="{{ $key }}">
-			<h2 class="">
-				<a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a>
-			</h2>
-			<p>
-				{{ range $value.Pages }}
-					<a href="{{ .Permalink }}">{{ .Title }}</a>
-				{{ end }}
-			</p>
-		</section>
-	{{ end }}
-{{ end }}
-{{ define "scripts" }}
-	{{ partial "active_projects" . }}
+	{{ partial "terms" . }}
 {{ end }}

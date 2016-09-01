@@ -4,29 +4,34 @@
 
 {{ define "main" }}
 {{ range first 1 .Data.Pages }}
-<section>
-	<h2 class="m-b-3">
+<section class="">
+	<h1 class="">
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
-	</h2>
+	</h1>
 	<p class="lead">{{ .Params.summary }}</p>
 	{{ .Content }}
 </section>
 {{ end }}
 <div class="row">
-	<section class="col-sm-6 m-b-3">
-		<h3 class="m-b-1">Recent posts</h3>
+	<section class="col-sm-6">
+		<h2 class="m-t-3">Posts</h2>
 		{{ range where .Data.Pages "Section" "post" }}
 		<section class="{{ .Section }}">
-			<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+			<h3 class="m-t-2">
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</h3>
 			<p class="lead">{{ .Params.summary }}</p>
+			{{ partial "timestamp" . }}
 		</section>	
 		{{ end }}
 	</section>
-	<section class="col-sm-5 m-b-3">
-		<h3 class="m-b-1">Recent projects</h3>
+	<section class="col-sm-5">
+		<h2 class="m-t-3">Projects</h2>
 		{{ range where .Data.Pages "Section" "project" }}
 		<section class="{{ .Section }}">
-			<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+			<h3 class="m-t-2">
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</h3>
 			<p class="lead">{{ .Params.summary }}</p>
 		</section>
 		{{ end }}
