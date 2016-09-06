@@ -1,0 +1,37 @@
+{{ define "main" }}
+<!-- <em>layouts/project/single.html</em> -->
+{{ with .Params.screenshot }}
+<img class="img-fluid img-center"
+       alt="{{ $.Params.summary }}"
+		srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
+		        {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
+		        {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w,"
+		   src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
+{{ end }}
+<h1>{{ .Title }}</h1>
+<p class="lead">{{ .Params.summary }}</p>
+<!-- <div class="row"> -->
+	<!-- <aside class="col-sm-5 card"> -->
+	<!-- <aside class="card"> -->
+	<aside class="card pull-sm-right">
+		<div class="card-block">
+			<h4 class="card-title">Details</h4>
+			{{ with .Params.urls.public }}
+			<a class="card-link" href="{{ . }}">View the site.</a>
+			{{ end }}
+			{{ with .Params.urls.source }}
+			<br><a class="card-link" href="{{ . }}">View the source.</a>
+			{{ end }}
+		</div>
+		<div class="card-block">
+			<h4>Categories</h4>
+			{{ range .Params.categories }}
+			<a class="card-link" href="/categories/{{ . | urlize }}">{{ . }}</a>
+			{{ end }}
+		</div>
+	</aside>
+	<!-- <section class="col-sm-7"> -->
+		{{ .Content }}
+	<!-- </section> -->
+<!-- </div> -->
+{{ end }}

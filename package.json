@@ -4,7 +4,7 @@
   "description": "Personal website of Erik Ebsen",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass style/main.scss static/result.css"
+    "start": "node-sass style/ --output static/css/ -w"
   },
   "author": "Erik Ebsen <erik@ebsen.me>",
   "license": "ISC",

@@ -1,4 +1,113 @@
-// Bootstrap overrides
+// Bootstrap Overrides
 //
-// Copy variables from `_variables.scss` to this file to override default values
-// without modifying source files.
+// Copied variables from `_variables.scss` to this file to override default values without modifying source files.
+
+
+// Table of Contents
+//
+// Colors
+// Options
+// Spacing
+// Body
+// Links
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Fonts
+// Components
+
+
+// General variable structure
+//
+// Variable format should follow the `$component-modifier-state-property` order.
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+$gray-dark:                 $grey-900;
+$gray:                      $grey-700;
+$gray-light:                $grey-500;
+$gray-lighter:              $grey-300;
+$gray-lightest:             $grey-100;
+
+// $brand-primary:             $blue-700;
+$brand-primary:             $blue;
+// $brand-success:             #5cb85c !default;
+// $brand-info:                #5bc0de !default;
+// $brand-warning:             #f0ad4e !default;
+// $brand-danger:              #d9534f !default;
+$brand-inverse:             $brown-500;
+// $link-color:                $blue;
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-flex: true;
+
+
+// Spacing
+$border-width: 2px;
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// $font-family-sans-serif: ;
+$font-family-serif: "Merriweather", Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif: "Avenir Next";
+// $font-family-monospace: ;
+$font-family-base:  $font-family-serif;
+
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+// $line-height-lg:         (4 / 3) !default;
+// $line-height-sm:         1.5 !default;
+
+$border-radius:          0;
+
+
+// Navbar
+
+// $navbar-border-radius:              $border-radius !default;
+// $navbar-padding-x:                  $spacer !default;
+// $navbar-padding-y:                  ($spacer / 2) !default;
+// $navbar-brand-padding-y:            .25rem !default;
+
+// $navbar-dark-color:                 rgba(255,255,255,.5) !default;
+// $navbar-dark-hover-color:           rgba(255,255,255,.75) !default;
+// $navbar-dark-active-color:          rgba(255,255,255,1) !default;
+// $navbar-dark-disabled-color:        rgba(255,255,255,.25) !default;
+
+// $navbar-light-color:                rgba(0,0,0,.3) !default;
+// $navbar-light-hover-color:          rgba(0,0,0,.6) !default;
+// $navbar-light-active-color:         rgba(0,0,0,.8) !default;
+// $navbar-light-disabled-color:       rgba(0,0,0,.15) !default;
+
+
+// Navs
+
+// $nav-item-margin:               .2rem !default;
+// $nav-item-inline-spacer:        1rem !default;
+// $nav-link-padding:              .5em 1em !default;
+// $nav-link-hover-bg:             $gray-lighter !default;
+// $nav-disabled-link-color:       $gray-light !default;
+// $nav-disabled-link-hover-color: $gray-light !default;
+// $nav-disabled-link-hover-bg:    transparent !default;
+
+// $nav-tabs-border-color:                       #ddd !default;
+// $nav-tabs-border-width:                       $border-width !default;
+// $nav-tabs-border-radius:                      $border-radius !default;
+// $nav-tabs-link-hover-border-color:            $gray-lighter !default;
+// $nav-tabs-active-link-hover-color:            $gray !default;
+// $nav-tabs-active-link-hover-bg:               $body-bg !default;
+// $nav-tabs-active-link-hover-border-color:     #ddd !default;
+// $nav-tabs-justified-link-border-color:        #ddd !default;
+// $nav-tabs-justified-active-link-border-color: $body-bg !default;
+
+// $nav-pills-border-radius:     $border-radius !default;
+// $nav-pills-active-link-color: $component-active-color !default;
+// $nav-pills-active-link-bg:    $component-active-bg !default;

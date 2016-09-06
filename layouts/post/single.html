@@ -1,0 +1,7 @@
+{{ define "main" }}
+<!-- <em>layouts/post/single.html</em> -->
+<h1>{{ .Title }}</h1>
+<p class="lead">{{ .Params.summary }}</p>
+{{ .Content }}
+{{ partial "timestamp" . }}
+{{ end }}

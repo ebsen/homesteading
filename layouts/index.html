@@ -3,8 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
+<article class="container m-b-3" role="main">
 {{ range first 1 .Data.Pages }}
-<section class="">
+<section>
 	<h1 class="">
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
 	</h1>
@@ -37,4 +38,5 @@
 		{{ end }}
 	</section>
 </div>
+</article>
 {{ end }}
