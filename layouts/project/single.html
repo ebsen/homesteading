@@ -10,10 +10,8 @@
 {{ end }}
 <h1>{{ .Title }}</h1>
 <p class="lead">{{ .Params.summary }}</p>
-<!-- <div class="row"> -->
-	<!-- <aside class="col-sm-5 card"> -->
-	<!-- <aside class="card"> -->
-	<aside class="card pull-sm-right">
+	<aside class="card pull-xs-right m-l-1">
+		{{ if or (isset .Params.urls "public") (isset .Params.urls "source") }}
 		<div class="card-block">
 			<h4 class="card-title">Details</h4>
 			{{ with .Params.urls.public }}
@@ -23,6 +21,7 @@
 			<br><a class="card-link" href="{{ . }}">View the source.</a>
 			{{ end }}
 		</div>
+		{{ end }}
 		<div class="card-block">
 			<h4>Categories</h4>
 			{{ range .Params.categories }}
@@ -30,8 +29,5 @@
 			{{ end }}
 		</div>
 	</aside>
-	<!-- <section class="col-sm-7"> -->
-		{{ .Content }}
-	<!-- </section> -->
-<!-- </div> -->
+	{{ .Content }}
 {{ end }}

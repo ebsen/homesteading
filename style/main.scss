@@ -17,16 +17,30 @@
 .lead {
 	font-style: italic;
 }
-.navbar {
+footer,
+.card,
+.navbar
+{
 	// border-bottom: $border-width $green-900;
-	border-bottom: $border-width solid $grey-300;
+	// border-bottom: $border-width solid $grey-300;
+	// border-top: $border-width solid $green-500;
+	border-top: $border-width solid $green-500;
+	// background-color: $gray-lighter !important;
 }
+.card {
+	background: linear-gradient(-45deg, transparent 16px, $gray-lightest 0); // CSS Secrets, pg 97
+	// max-width: 544px; // Bootstrap's 'extra small' size
+	// @include clearfix();
+}
+// .card {
+// 	background-color: $gray-lightest;
+// }
 // .nav-link {
 // 	font-variant: small-caps;
 // }
 footer {
 	// background-color: $grey-300;
-	border-top: $border-width solid $gray-lighter;
+	// border-top: $border-width solid $gray-lighter;
 	p:last-child {
 		margin-bottom: 0;
 	}

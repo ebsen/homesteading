@@ -37,7 +37,7 @@ $brand-primary:             $blue;
 // $brand-info:                #5bc0de !default;
 // $brand-warning:             #f0ad4e !default;
 // $brand-danger:              #d9534f !default;
-$brand-inverse:             $brown-500;
+// $brand-inverse:             $brown-500;
 // $link-color:                $blue;
 
 
@@ -48,7 +48,7 @@ $enable-flex: true;
 
 
 // Spacing
-$border-width: 2px;
+$border-width: 4px;
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -69,6 +69,24 @@ $font-family-base:  $font-family-serif;
 
 $border-radius:          0;
 
+
+// Cards
+// $card-spacer-x:            1.25rem !default;
+// $card-spacer-y:            .75rem !default;
+$card-border-width:           0;
+// $card-border-radius:       $border-radius !default;
+// $card-border-color:        rgba(0,0,0,.125) !default;
+// $card-border-radius-inner: $card-border-radius !default;
+// $card-cap-bg:              #f5f5f5 !default;
+// $card-bg:                     $gray-lightest;
+
+// $card-link-hover-color:    #fff !default;
+
+// $card-img-overlay-padding: 1.25rem !default;
+
+// $card-deck-margin:         .625rem !default;
+
+// $card-columns-sm-up-column-gap: 1.25rem !default;
 
 // Navbar
 
