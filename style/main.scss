@@ -14,6 +14,7 @@
 // header {
 // 	background-color: $brown-500;
 // }
+
 .lead {
 	font-style: italic;
 	font-weight: normal;
@@ -21,8 +22,8 @@
 // .navbar {
 // 	border-bottom: $border-width solid $grey-300;
 // }
-footer,
-.card,
+// footer,
+// .card,
 .card
 // .navbar
 {
@@ -39,6 +40,14 @@ footer,
 }
 .navbar {
 	border-bottom: 1px solid $gray-lighter;
+
+	&-brand {
+		background-color: $brown-500;
+		padding-top: 4rem;
+	}
+	&-nav {
+		padding-top: 4rem;
+	}
 }
 // .card {
 // 	background-color: $gray-lightest;
@@ -51,7 +60,10 @@ footer,
 // }
 footer {
 	// background-color: $grey-300;
-	// border-top: $border-width solid $gray-lighter;
+	// background-color: $brown-200 !important;
+	// border-top: $border-width solid $brown-300;
+	// border-top: $border-width solid $brown-300;
+	border-top: 1px solid $gray-lighter;
 	p:last-child {
 		margin-bottom: 0;
 	}

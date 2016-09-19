@@ -2765,7 +2765,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  padding: 0.5rem 1rem; }
+  padding: 0 0; }
   .navbar::after {
     content: "";
     display: table;
@@ -2822,8 +2822,8 @@ input[type="button"].btn-block {
   width: 4px;
   padding-top: .425rem;
   padding-bottom: .425rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 0;
+  margin-left: 0;
   overflow: hidden; }
   .navbar-divider::before {
     content: "\00a0"; }
@@ -4893,8 +4893,6 @@ a.text-danger:focus, a.text-danger:hover {
   font-style: italic;
   font-weight: normal; }
 
-footer,
-.card,
 .card {
   border-bottom: 4px solid #A1887F; }
 
@@ -4904,6 +4902,13 @@ footer,
 
 .navbar {
   border-bottom: 1px solid #E0E0E0; }
+  .navbar-brand {
+    background-color: #795548;
+    padding-top: 4rem; }
+  .navbar-nav {
+    padding-top: 4rem; }
 
-footer p:last-child {
-  margin-bottom: 0; }
+footer {
+  border-top: 1px solid #E0E0E0; }
+  footer p:last-child {
+    margin-bottom: 0; }
