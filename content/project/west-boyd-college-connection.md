@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
   - Drupal
   - personal
 date: 2016-03-12T10:56:07-06:00

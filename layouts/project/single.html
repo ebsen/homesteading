@@ -23,9 +23,9 @@
 		</div>
 		{{ end }}
 		<div class="card-block">
-			<h4>Categories</h4>
-			{{ range .Params.categories }}
-			<a class="card-link" href="/categories/{{ . | urlize }}">{{ . }}</a>
+			<h4>Tags</h4>
+			{{ range .Params.tags }}
+			<a class="card-link" href="/tags/{{ . | urlize }}">{{ . }}</a>
 			{{ end }}
 		</div>
 	</aside>

@@ -6,6 +6,6 @@ urls:
   public: false
   source: false
 draft: true
-categories:
+tags:
 ---
 

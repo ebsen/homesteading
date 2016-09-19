@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
   - Drupal
   - professional
 date: 2016-01-05T21:12:33-06:00

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
   - professional
   - static
 date: 2016-03-12T10:58:25-06:00

@@ -1,5 +1,5 @@
 ---
-categories: 
+tags: 
   - professional
 date: 2016-01-05T21:02:05-06:00
 draft: false

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
   - professional
   - WordPress
 date: 2016-03-12T10:59:05-06:00
