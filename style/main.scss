@@ -16,27 +16,38 @@
 // }
 .lead {
 	font-style: italic;
+	font-weight: normal;
 }
+// .navbar {
+// 	border-bottom: $border-width solid $grey-300;
+// }
 footer,
 .card,
-.navbar
+.card
+// .navbar
 {
-	// border-bottom: $border-width $green-900;
-	// border-bottom: $border-width solid $grey-300;
 	// border-top: $border-width solid $green-500;
-	border-top: $border-width solid $green-500;
-	// background-color: $gray-lighter !important;
+	// border-top: 2px solid $green-500;
+	border-bottom: $border-width solid $brown-300;
+	// background-color: $green-50;
 }
 .card {
-	background: linear-gradient(-45deg, transparent 16px, $gray-lightest 0); // CSS Secrets, pg 97
+	background: linear-gradient(230deg, transparent 16px, $gray-lightest 0); // CSS Secrets, pg 97
+	max-width: 256px;
 	// max-width: 544px; // Bootstrap's 'extra small' size
 	// @include clearfix();
+}
+.navbar {
+	border-bottom: 1px solid $gray-lighter;
 }
 // .card {
 // 	background-color: $gray-lightest;
 // }
 // .nav-link {
 // 	font-variant: small-caps;
+// }
+// .navbar-brand {
+// 	background-color: $green-500;
 // }
 footer {
 	// background-color: $grey-300;

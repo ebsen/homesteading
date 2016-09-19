@@ -32,13 +32,13 @@ $gray-lighter:              $grey-300;
 $gray-lightest:             $grey-100;
 
 // $brand-primary:             $blue-700;
-$brand-primary:             $blue;
+$brand-primary:             $green-500;
 // $brand-success:             #5cb85c !default;
 // $brand-info:                #5bc0de !default;
 // $brand-warning:             #f0ad4e !default;
 // $brand-danger:              #d9534f !default;
 // $brand-inverse:             $brown-500;
-// $link-color:                $blue;
+$link-color:                $blue;
 
 
 // Options
@@ -94,6 +94,7 @@ $card-border-width:           0;
 // $navbar-padding-x:                  $spacer !default;
 // $navbar-padding-y:                  ($spacer / 2) !default;
 // $navbar-brand-padding-y:            .25rem !default;
+// $navbar-brand-padding-y:            .1rem;
 
 // $navbar-dark-color:                 rgba(255,255,255,.5) !default;
 // $navbar-dark-hover-color:           rgba(255,255,255,.75) !default;
