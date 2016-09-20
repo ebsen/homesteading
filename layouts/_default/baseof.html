@@ -8,13 +8,13 @@
 	{{ end }}
 	{{ partial "meta" . }}
 	<link rel="canonical" href="{{ .Permalink }}">
-	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,500,700' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,500,700' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 
 <body>
 	{{ partial "header" . }}
-	<article class="container m-b-3" role="main">
+	<article class="container m-b-3 p-t-3" role="main">
 	{{ block "main" . }}{{ end }}
 	</article>
 	{{ partial "footer" . }}

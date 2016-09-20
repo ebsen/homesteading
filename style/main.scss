@@ -11,62 +11,47 @@
 // Import main Bootstrap file from node_modules
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-// header {
-// 	background-color: $brown-500;
-// }
+article a {
+
+	&:hover {
+		background-color: $link-color;
+		color: white;
+	}
+}
 
 .lead {
 	font-style: italic;
 	font-weight: normal;
 }
-// .navbar {
-// 	border-bottom: $border-width solid $grey-300;
-// }
-// footer,
-// .card,
-.card
-// .navbar
-{
-	// border-top: $border-width solid $green-500;
-	// border-top: 2px solid $green-500;
-	border-bottom: $border-width solid $brown-300;
-	// background-color: $green-50;
-}
+
 .card {
+	border-bottom: $border-width solid $brown-300;
 	background: linear-gradient(230deg, transparent 16px, $gray-lightest 0); // CSS Secrets, pg 97
 	max-width: 256px;
-	// max-width: 544px; // Bootstrap's 'extra small' size
-	// @include clearfix();
 }
+
 .navbar {
 	border-bottom: 1px solid $gray-lighter;
 
 	&-brand {
-		background-color: $brown-500;
+		border-bottom: $border-width solid $brown-300;
+		padding-bottom: .5rem;
 		padding-top: 4rem;
 	}
+	
 	&-nav {
 		padding-top: 4rem;
 	}
+	
+	&::after {
+		clear: none;
+	}
 }
-// .card {
-// 	background-color: $gray-lightest;
-// }
-// .nav-link {
-// 	font-variant: small-caps;
-// }
-// .navbar-brand {
-// 	background-color: $green-500;
-// }
+
 footer {
-	// background-color: $grey-300;
-	// background-color: $brown-200 !important;
-	// border-top: $border-width solid $brown-300;
-	// border-top: $border-width solid $brown-300;
 	border-top: 1px solid $gray-lighter;
+
 	p:last-child {
 		margin-bottom: 0;
 	}
 }
-
-// Then write it out to static/main.css

@@ -32,13 +32,13 @@ $gray-lighter:              $grey-300;
 $gray-lightest:             $grey-100;
 
 // $brand-primary:             $blue-700;
-$brand-primary:             $green-500;
+// $brand-primary:             $green-500;
+$brand-primary:             $brown-500;
 // $brand-success:             #5cb85c !default;
 // $brand-info:                #5bc0de !default;
 // $brand-warning:             #f0ad4e !default;
 // $brand-danger:              #d9534f !default;
 // $brand-inverse:             $brown-500;
-$link-color:                $blue;
 
 
 // Options
@@ -59,6 +59,14 @@ $font-family-sans-serif: "Avenir Next";
 // $font-family-monospace: ;
 $font-family-base:  $font-family-serif;
 
+// Links
+//
+// Style anchor elements.
+
+$link-color:            $blue;
+// $link-decoration:       none !default;
+$link-hover-color:      lighten($link-color, 15%);
+$link-hover-decoration: none;
 
 // Components
 //
@@ -94,7 +102,7 @@ $card-border-width:           0;
 $navbar-padding-x:                  0;
 $navbar-padding-y:                  0;
 // $navbar-brand-padding-y:            .25rem !default;
-// $navbar-brand-padding-y:            .1rem;
+$navbar-brand-padding-y:            5rem;
 
 // $navbar-dark-color:                 rgba(255,255,255,.5) !default;
 // $navbar-dark-hover-color:           rgba(255,255,255,.75) !default;
@@ -116,17 +124,12 @@ $navbar-padding-y:                  0;
 // $nav-disabled-link-color:       $gray-light !default;
 // $nav-disabled-link-hover-color: $gray-light !default;
 // $nav-disabled-link-hover-bg:    transparent !default;
+// .navbar {
+//   position: relative;
+//   padding: $navbar-padding-y $navbar-padding-x;
+  // @include clearfix;
 
-// $nav-tabs-border-color:                       #ddd !default;
-// $nav-tabs-border-width:                       $border-width !default;
-// $nav-tabs-border-radius:                      $border-radius !default;
-// $nav-tabs-link-hover-border-color:            $gray-lighter !default;
-// $nav-tabs-active-link-hover-color:            $gray !default;
-// $nav-tabs-active-link-hover-bg:               $body-bg !default;
-// $nav-tabs-active-link-hover-border-color:     #ddd !default;
-// $nav-tabs-justified-link-border-color:        #ddd !default;
-// $nav-tabs-justified-active-link-border-color: $body-bg !default;
-
-// $nav-pills-border-radius:     $border-radius !default;
-// $nav-pills-active-link-color: $component-active-color !default;
-// $nav-pills-active-link-bg:    $component-active-bg !default;
+  // @include media-breakpoint-up(sm) {
+  //   @include border-radius($navbar-border-radius);
+  // }
+// }
