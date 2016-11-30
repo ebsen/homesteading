@@ -3,13 +3,17 @@
 <!-- <h1>{{ .Title }}</h1> -->
 {{ range .Data.Pages }}
 <section class="{{ .Section }}">
-	<h2 class="m-t-3">
+	<h1 class="m-t-3">
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
-	</h2>
-	<p class="">{{ .Params.summary }}<p>
-	{{ if eq .Section "post" }}
-		{{ partial "timestamp" . }}
-	{{ end }}
+	</h1>
+	<p class="m-b-0">
+		{{ .Params.summary }}
+	</p>
+	<p>
+		{{ if eq .Section "post" }}
+			{{ partial "timestamp" . }}
+		{{ end }}
+	</p>
 </section>
 {{ end }}
 {{ end }}

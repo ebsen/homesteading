@@ -25,8 +25,8 @@ article a {
 }
 
 .card {
-	border-bottom: $border-width solid $brown-300;
-	background: linear-gradient(230deg, transparent 16px, $gray-lightest 0); // CSS Secrets, pg 97
+	border-top: $border-width solid $brown-300;
+	background: linear-gradient(-45deg, transparent 16px, $gray-lightest 0); // CSS Secrets, pg 97
 	max-width: 256px;
 }
 
@@ -34,9 +34,17 @@ article a {
 	border-bottom: 1px solid $gray-lighter;
 
 	&-brand {
-		border-bottom: $border-width solid $brown-300;
+		// border-bottom: 2px solid $brown-900;
 		padding-bottom: .5rem;
+		// padding-left: .5rem;
+		// padding-right: .5rem;
 		padding-top: 4rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-left: -1rem;
+		// margin-right: -.25rem;
+		// margin-left: 0;
+		// padding-left: 0;
 	}
 	
 	&-nav {

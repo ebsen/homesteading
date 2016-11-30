@@ -1,6 +1,4 @@
 ---
-date: 2015-12-21T21:25:11-06:00
-draft: true
 title: About
 ---
 

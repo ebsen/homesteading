@@ -11,22 +11,20 @@
 <h1>{{ .Title }}</h1>
 <p class="lead">{{ .Params.summary }}</p>
 	<aside class="card pull-xs-right m-l-1">
-		{{ if or (isset .Params.urls "public") (isset .Params.urls "source") }}
 		<div class="card-block">
+			<h4 class="card-title">Details</h4>
 			{{ with .Params.urls.public }}
 			<a class="card-link" href="{{ . }}">View the site.</a>
 			{{ end }}
 			{{ with .Params.urls.source }}
 			<br><a class="card-link" href="{{ . }}">View the source.</a>
 			{{ end }}
-			<h4 class="card-title">Details</h4>
 		</div>
-		{{ end }}
 		<div class="card-block">
+			<h4>Tags</h4>
 			{{ range .Params.tags }}
 			<a class="card-link" href="/tags/{{ . | urlize }}">{{ . }}</a>
 			{{ end }}
-			<h4>Tags</h4>
 		</div>
 	</aside>
 	{{ .Content }}
