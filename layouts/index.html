@@ -6,36 +6,11 @@
 {{ range first 1 .Data.Pages }}
 <!-- as long as it isn't the About page -->
 <section>
-	<h1 class="m-t-3">
+	<h1>
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
 	</h1>
-	<p class="lead">{{ .Params.summary }}</p>
+	<p>{{ .Params.summary }}</p>
 	{{ .Content }}
 </section>
 {{ end }}
-<!-- <div class="row"> -->
-<!-- 	<section class="col-sm-6"> -->
-<!-- 		<h2 class="m-t-3">Posts</h2> -->
-<!-- 		{{ range where .Data.Pages "Section" "post" }} -->
-<!-- 		<section class="{{ .Section }}"> -->
-<!-- 			<h3 class="m-t-2"> -->
-<!-- 				<a href="{{ .Permalink }}">{{ .Title }}</a> -->
-<!-- 			</h3> -->
-<!-- 			<p class="lead m-b-0">{{ .Params.summary }}</p> -->
-<!-- 			<p>{{ partial "timestamp" . }}</p> -->
-<!-- 		</section> -->	
-<!-- 		{{ end }} -->
-<!-- 	</section> -->
-<!-- 	<section class="col-sm-5"> -->
-<!-- 		<h2 class="m-t-3">Projects</h2> -->
-<!-- 		{{ range where .Data.Pages "Section" "project" }} -->
-<!-- 		<section class="{{ .Section }}"> -->
-<!-- 			<h3 class="m-t-2"> -->
-<!-- 				<a href="{{ .Permalink }}">{{ .Title }}</a> -->
-<!-- 			</h3> -->
-<!-- 			<p class="lead">{{ .Params.summary }}</p> -->
-<!-- 		</section> -->
-<!-- 		{{ end }} -->
-<!-- 	</section> -->
-<!-- </div> -->
 {{ end }}

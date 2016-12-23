@@ -9,11 +9,8 @@
   "author": "Erik Ebsen <erik@ebsen.me>",
   "license": "ISC",
   "dependencies": {
-    "basscss": "^7.1.0",
     "postcss": "^5.0.14",
     "postcss-cssnext": "^2.4.0"
   },
-  "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.3"
-  }
+  "devDependencies": { }
 }

@@ -1,0 +1,68 @@
+:root {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/* font-family: sans-serif; */
+
+	/* COLORS */
+	/* eee */
+	/* 333 */
+	/* 777 */
+	/* 444 */
+	/* ddd */
+	/* fff */
+	/* 555 */
+	/* ccc */
+	/* f0f0f0 */
+	/* 111 */
+	/* 999 */
+	/* black */
+	/* grey */
+	/* grey-light */
+	/* grey-dark color eee bg 333 */
+	/* white */
+}
+
+* {
+	margin: 0;
+}
+
+* + * {
+	margin-top: 1.5em;
+}
+
+/* html { */
+/* 	font-family: Georgia, "Times New Roman", Times, serif; */
+/* } */
+
+a {}
+
+article {
+	columns: 24em;
+}
+
+aside {}
+
+body {
+	padding: .25em;
+}
+
+footer {}
+
+h1, h2, h3, h4, h5, h6 {}
+
+h1 {
+	column-span: all;
+}
+
+header {}
+
+p {
+	text-align: justify;
+	margin-top: 0;
+}
+
+/* p:first-of-type { */
+/* } */
+
+p + p {
+	text-indent: 2em;
+}
