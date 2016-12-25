@@ -61,9 +61,21 @@ a:focus, a:hover {
 
 article {
 	border-top: 1px solid var(--grey-dark);
-	columns: 24em;
-	column-gap: var(--margin);
+	display: flex;
+	flex-wrap: wrap;
+	margin: calc(var(--margin) * -1);
+/* 	flex-flow: row nowrap; */
+/* 	columns: 24em; */
+/* 	column-gap: var(--margin); */
 /* 	padding-top: var(--margin); */
+}
+
+article > * {
+/* 	width: 24em; */
+/* 	margin: auto; */
+/* 	flex: 1 1em; */
+	flex: 1 0 24em;
+	margin: 0 var(--margin);
 }
 
 aside {}
@@ -102,7 +114,7 @@ header > a {
 
 article header {
 /* 	break-after: column; */
-	column-span: all;
+/* 	column-span: all; */
 	padding: var(--margin) 0;
 }
 
