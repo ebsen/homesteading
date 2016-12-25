@@ -45,10 +45,6 @@ body, br, dt, dd, li, th, td, option {
 	margin-top: 0;
 }
 
-/* html { */
-/* 	font-family: Georgia, "Times New Roman", Times, serif; */
-/* } */
-
 a {
 	color: var(--blue);
 }
@@ -61,72 +57,24 @@ a:focus, a:hover {
 
 article {
 	border-top: 1px solid var(--grey-dark);
-	display: flex;
-	flex-wrap: wrap;
-	margin: calc(var(--margin) * -1);
-/* 	flex-flow: row nowrap; */
-/* 	columns: 24em; */
-/* 	column-gap: var(--margin); */
-/* 	padding-top: var(--margin); */
 }
-
-article > * {
-/* 	width: 24em; */
-/* 	margin: auto; */
-/* 	flex: 1 1em; */
-	flex: 1 0 24em;
-	margin: 0 var(--margin);
-}
-
-aside {}
 
 body {
 	padding: var(--margin);
 }
-
-/* 
-code, 
-footer, 
-.card 
-{
-	margin-left: calc(var(--margin) * -1);
-	margin-right: calc(var(--margin) * -1);
-	padding-left: var(--margin);
-	padding-right: var(--margin);
-}
- */
-
-footer {
-/* 	background: var(--grey-lightest); */
-}
-
-h1, h2, h3, h4, h5, h6 {}
-
-/* 
-h1 {
-	column-span: all;
-}
- */
 
 header > a {
 	font-weight: bold;
 }
 
 article header {
-/* 	break-after: column; */
-/* 	column-span: all; */
 	padding: var(--margin) 0;
 }
 
-p { }
 article p {
-/* 	font-family: var(--font-family-serif); */
 	text-align: justify;
 	margin-top: 0;
 }
-
-/* p:first-of-type { */
-/* } */
 
 article p + p {
 	text-indent: 2em;
@@ -142,12 +90,35 @@ time {
 	float: right;
 }
 
+/* LAYOUT UTILITIES */
+
+/* Use columns for descendant elements */
+.columns {
+	columns: 24em;
+	column-gap: var(--margin);
+}
+
+.columns header {
+	column-span: all;
+}
+
+/* Use flex box for descendent elements */
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin: calc(var(--margin) * -1);
+}
+
+.flex > * {
+	flex: 1 0 24em;
+	margin: 0 var(--margin);
+}
+
+
 .lede {
-/* 	break-after: column; */
-/* 	-webkit-column-break-after: always; */
 	color: var(--grey-darkest);
-/* 	font-variant: small-caps; */
 	font-style: italic;
 }
 
+/* TYPE SCALES */
 .minor-third {}
