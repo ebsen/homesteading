@@ -55,8 +55,23 @@ a:focus, a:hover {
 	text-decoration: none;
 }
 
+header a,
+nav a {
+	text-decoration: none;
+}
+
+header a {
+	color: #111;
+}
+
+nav a {
+	color: var(--grey-dark);
+/* 	font-variant: small-caps; */
+	font-style: italic;
+}
+
 article {
-	border-top: 1px solid var(--grey-dark);
+/* 	border-top: 1px solid var(--grey-dark); */
 }
 
 body {
@@ -75,6 +90,18 @@ article p {
 	text-align: justify;
 	margin-top: 0;
 }
+
+/* 
+article > p:first-of-type::first-line {
+	font-variant: small-caps;
+}
+ */
+
+/* 
+article > p:first-of-type:first-letter {
+	font-weight: bold;
+}
+ */
 
 article p + p {
 	text-indent: 2em;
