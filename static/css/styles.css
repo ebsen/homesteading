@@ -1,13 +1,13 @@
 :root {
 	--border-radius: .3em;
-	--font-family-serif: Georgia, "Times New Roman", Times, serif;
+	--font-family-serif: Merriweather, Georgia, "Times New Roman", Times, serif;
 	--font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	--margin: 1.5em;
 	--whitespace: .25em;
 
-/* 	color: var(--grey-dark); */
-	font-family: var(--font-family-sans-serif);
-	line-height: 1.2;
+	color: #111;
+	font-family: var(--font-family-serif);
+/* 	line-height: 1.5; */
 
 	/* COLORS */
 	/* eee */
@@ -52,7 +52,9 @@ body, br, dt, dd, li, th, td, option {
 a {}
 
 article {
+	border-top: 1px solid var(--grey-dark);
 	columns: 24em;
+/* 	padding-top: var(--margin); */
 }
 
 aside {}
@@ -84,6 +86,9 @@ h1 {
 }
 
 header {}
+article header {
+	break-after: column;
+}
 
 p { }
 article p {
@@ -98,3 +103,17 @@ article p {
 article p + p {
 	text-indent: 2em;
 }
+
+time {
+	color: var(--grey-dark);
+	font-variant: small-caps;
+	float: right;
+}
+
+.lede {
+	color: var(--grey-darkest);
+/* 	font-variant: small-caps; */
+font-style: italic;
+}
+
+.minor-third {}
