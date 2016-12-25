@@ -1,9 +1,13 @@
 :root {
+	--border-radius: .3em;
 	--font-family-serif: Georgia, "Times New Roman", Times, serif;
 	--font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--margin: 1.5em;
+	--whitespace: .25em;
 
+/* 	color: var(--grey-dark); */
 	font-family: var(--font-family-sans-serif);
-	line-height: 1.4;
+	line-height: 1.2;
 
 	/* COLORS */
 	/* eee */
@@ -18,10 +22,13 @@
 	/* 111 */
 	/* 999 */
 	/* black */
-	/* grey */
+	--grey-light: #ddd;
 	/* grey-light */
-	/* grey-dark color eee bg 333 */
-	/* white */
+	--grey-dark: #777; 
+	--grey-darkest: #555;
+	/* color eee bg 333 */
+	--grey-lightest: #eee;
+	--white: #fff;
 }
 
 * {
@@ -29,7 +36,13 @@
 }
 
 * + * {
-	margin-top: 1.5em;
+	margin-top: var(--margin);
+}
+
+/* Exceptions to our adjacent sibling combinator
+   otherwise known as the lobotomized owl selector */
+body, br, dt, dd, li, th, td, option {
+	margin-top: 0;
 }
 
 /* html { */
@@ -45,10 +58,24 @@ article {
 aside {}
 
 body {
-	padding: .25em;
+	padding: var(--whitespace);
 }
 
-footer {}
+/* 
+code, 
+footer, 
+.card 
+{
+	margin-left: calc(var(--whitespace) * -1);
+	margin-right: calc(var(--whitespace) * -1);
+	padding-left: var(--whitespace);
+	padding-right: var(--whitespace);
+}
+ */
+
+footer {
+/* 	background: var(--grey-lightest); */
+}
 
 h1, h2, h3, h4, h5, h6 {}
 
@@ -60,7 +87,7 @@ header {}
 
 p { }
 article p {
-	font-family: var(--font-family-serif);
+/* 	font-family: var(--font-family-serif); */
 	text-align: justify;
 	margin-top: 0;
 }
