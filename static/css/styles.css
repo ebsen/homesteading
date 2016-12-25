@@ -2,8 +2,7 @@
 	--border-radius: .3em;
 	--font-family-serif: Merriweather, Georgia, "Times New Roman", Times, serif;
 	--font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	--margin: 1.5em;
-	--whitespace: .25em;
+	--margin: 1em;
 
 	color: #111;
 	font-family: var(--font-family-serif);
@@ -22,6 +21,7 @@
 	/* 111 */
 	/* 999 */
 	/* black */
+	--blue: #0050D4;
 	--grey-light: #ddd;
 	/* grey-light */
 	--grey-dark: #777; 
@@ -49,18 +49,27 @@ body, br, dt, dd, li, th, td, option {
 /* 	font-family: Georgia, "Times New Roman", Times, serif; */
 /* } */
 
-a {}
+a {
+	color: var(--blue);
+}
+
+a:focus, a:hover {
+	background-color: var(--blue);
+	color: white;
+	text-decoration: none;
+}
 
 article {
 	border-top: 1px solid var(--grey-dark);
 	columns: 24em;
+	column-gap: var(--margin);
 /* 	padding-top: var(--margin); */
 }
 
 aside {}
 
 body {
-	padding: var(--whitespace);
+	padding: var(--margin);
 }
 
 /* 
@@ -68,10 +77,10 @@ code,
 footer, 
 .card 
 {
-	margin-left: calc(var(--whitespace) * -1);
-	margin-right: calc(var(--whitespace) * -1);
-	padding-left: var(--whitespace);
-	padding-right: var(--whitespace);
+	margin-left: calc(var(--margin) * -1);
+	margin-right: calc(var(--margin) * -1);
+	padding-left: var(--margin);
+	padding-right: var(--margin);
 }
  */
 
@@ -81,13 +90,20 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {}
 
+/* 
 h1 {
 	column-span: all;
 }
+ */
 
-header {}
+header > a {
+	font-weight: bold;
+}
+
 article header {
-	break-after: column;
+/* 	break-after: column; */
+	column-span: all;
+	padding: var(--margin) 0;
 }
 
 p { }
@@ -104,6 +120,10 @@ article p + p {
 	text-indent: 2em;
 }
 
+nav {
+	margin-top: 0;
+}
+
 time {
 	color: var(--grey-dark);
 	font-variant: small-caps;
@@ -111,9 +131,11 @@ time {
 }
 
 .lede {
+/* 	break-after: column; */
+/* 	-webkit-column-break-after: always; */
 	color: var(--grey-darkest);
 /* 	font-variant: small-caps; */
-font-style: italic;
+	font-style: italic;
 }
 
 .minor-third {}
