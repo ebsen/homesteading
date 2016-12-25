@@ -14,14 +14,10 @@
 
 <body>
 	{{ partial "header" . }}
-	<article role="main">
+	<main>
 	{{ block "main" . }}{{ end }}
-	</article>
+	</main>
 	{{ partial "footer" . }}
-	{{ block "scripts" . }}
-		<script>
-			document.querySelector('#nav-{{ .Title | lower }}').className += ' active';
-		</script>
-	{{ end }}
 </body>
+
 </html>

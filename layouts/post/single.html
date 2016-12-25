@@ -1,7 +1,9 @@
 {{ define "main" }}
+<article>
 <!-- <em>layouts/post/single.html</em> -->
 <h1>{{ .Title }}</h1>
 <p>{{ .Params.summary }}</p>
 {{ .Content }}
 {{ partial "timestamp" . }}
+<article>
 {{ end }}
