@@ -113,8 +113,8 @@ nav {
 
 time {
 	color: var(--grey-dark);
-	font-variant: small-caps;
 	float: right;
+	font-style: italic;
 }
 
 /* LAYOUT UTILITIES */
