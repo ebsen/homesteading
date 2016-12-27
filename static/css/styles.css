@@ -24,7 +24,7 @@
 	--blue: #0050D4;
 	--grey-light: #ddd;
 	/* grey-light */
-	--grey-dark: #777; 
+	--grey-dark: #777;
 	--grey-darkest: #555;
 	/* color eee bg 333 */
 	--grey-lightest: #eee;
@@ -91,13 +91,13 @@ article p {
 	margin-top: 0;
 }
 
-/* 
+/*
 article > p:first-of-type::first-line {
 	font-variant: small-caps;
 }
  */
 
-/* 
+/*
 article > p:first-of-type:first-letter {
 	font-weight: bold;
 }
