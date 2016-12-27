@@ -4,14 +4,14 @@
 	<header>
 		<h1>{{ .Title }}</h1>
 		<p class="lede">{{ .Params.summary }}</p>
+		{{ with .Params.screenshot }}
+			<img    alt="{{ $.Params.summary }}"
+					 srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
+									 {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
+									 {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w"
+							src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
+		{{ end }}
 	</header>
-	{{ with .Params.screenshot }}
-		<img    alt="{{ $.Params.summary }}"
-				 srcset="{{ $.Site.BaseURL }}images/project/{{ . }}-320.png 320w,
-								 {{ $.Site.BaseURL }}images/project/{{ . }}-640.png 640w,
-								 {{ $.Site.BaseURL }}images/project/{{ . }}-1280.png 1280w"
-						src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
-	{{ end }}
 	<aside>
 		<h4>Details</h4>
 		{{ with .Params.urls.public }}
