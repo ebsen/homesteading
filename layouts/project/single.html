@@ -12,6 +12,7 @@
 							src="{{ $.Site.BaseURL }}images/project/{{ . }}.png">
 		{{ end }}
 	</header>
+<!--
 	<aside>
 		<h4>Details</h4>
 		{{ with .Params.urls.public }}
@@ -26,6 +27,7 @@
 			<a href="/tags/{{ . | urlize }}">{{ . }}</a>
 		{{ end }}
 	</aside>
+ -->
 	{{ .Content }}
 </article>
 {{ end }}
