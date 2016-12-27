@@ -91,8 +91,8 @@ article img {
 }
 
 article p {
-	text-align: justify;
 	margin-top: 0;
+	text-align: justify;
 }
 
 /*
@@ -111,6 +111,10 @@ article p + p {
 	text-indent: 2em;
 }
 
+ul + p {
+	margin-top: var(--margin);
+}
+
 nav {
 	margin-top: 0;
 }
@@ -119,6 +123,10 @@ time {
 	color: var(--grey-dark);
 	float: right;
 	font-style: italic;
+}
+
+ul {
+	padding-left: calc(var(--margin) * 2);
 }
 
 /* LAYOUT UTILITIES */
