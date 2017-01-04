@@ -55,6 +55,14 @@ a:focus, a:hover {
 	text-decoration: none;
 }
 
+[rel="prev"]::before {
+	content: '2190';
+}
+
+[rel="next"]::after {
+	content: '2192';
+}
+
 body {
 	margin-left: 1vw;
 	margin-right: 1vw;
