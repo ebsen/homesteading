@@ -2,7 +2,7 @@
 	--border-radius: .3em;
 	--font-family-serif: Charter, Merriweather, Georgia, "Times New Roman", Times, serif;
 	--font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	--margin: 1em;
+	--margin: 2em;
 
 	color: #111;
 	font-family: var(--font-family-serif);
@@ -53,6 +53,11 @@ a:focus, a:hover {
 	background-color: var(--blue);
 	color: white;
 	text-decoration: none;
+}
+
+body {
+	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
 header a,
@@ -133,7 +138,7 @@ ul {
 
 /* Use columns for descendant elements */
 .columns {
-	columns: 24em;
+	columns: 20em;
 	column-gap: var(--margin);
 }
 
