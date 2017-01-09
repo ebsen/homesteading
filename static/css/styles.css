@@ -2,7 +2,7 @@
 	--border-radius: .3em;
 	--font-family-serif: Charter, Merriweather, Georgia, "Times New Roman", Times, serif;
 	--font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	--margin: 2em;
+	--margin: 1em;
 
 	color: #111;
 	font-family: var(--font-family-serif);
@@ -63,11 +63,6 @@ a:focus, a:hover {
 	content: '2192';
 }
 
-body {
-	margin-left: 1vw;
-	margin-right: 1vw;
-}
-
 header a,
 nav a {
 	text-decoration: none;
@@ -88,7 +83,11 @@ article {
 }
 
 body {
-	padding: var(--margin);
+	padding: 3em;
+/*
+	margin-left: 6vw;
+	margin-right: 6vw;
+ */
 }
 
 header > a {
@@ -96,7 +95,9 @@ header > a {
 }
 
 article header {
+	border-top: 1px solid var(--grey-dark);
 	padding: var(--margin) 0;
+	margin-top: 3em;
 }
 
 article img {
@@ -134,8 +135,8 @@ nav {
 
 time {
 	color: var(--grey-dark);
-	float: right;
 	font-style: italic;
+/* 	padding-left: 2em; */
 }
 
 ul {
