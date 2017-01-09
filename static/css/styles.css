@@ -135,8 +135,10 @@ nav {
 
 time {
 	color: var(--grey-dark);
+	display: block;
 	font-style: italic;
 /* 	padding-left: 2em; */
+	margin-top: var(--margin);
 }
 
 ul {
