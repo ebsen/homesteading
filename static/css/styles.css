@@ -31,6 +31,8 @@
 	--white: #fff;
 }
 
+/* Lobotomized Owl */
+
 * {
 	margin: 0;
 }
@@ -44,6 +46,8 @@
 body, br, dt, dd, li, th, td, option {
 	margin-top: 0;
 }
+
+/* Hyperlinks */
 
 a {
 	color: var(--blue);
@@ -74,25 +78,10 @@ header a {
 
 nav a {
 	color: var(--grey-dark);
-/* 	font-variant: small-caps; */
 	font-style: italic;
 }
 
-article {
-/* 	border-top: 1px solid var(--grey-dark); */
-}
-
-body {
-	padding: 3em;
-/*
-	margin-left: 6vw;
-	margin-right: 6vw;
- */
-}
-
-header > a {
-	font-weight: bold;
-}
+/* General */
 
 article header {
 	border-top: 1px solid var(--grey-dark);
@@ -109,24 +98,16 @@ article p {
 	text-align: justify;
 }
 
-/*
-article > p:first-of-type::first-line {
-	font-variant: small-caps;
-}
- */
-
-/*
-article > p:first-of-type:first-letter {
-	font-weight: bold;
-}
- */
-
 article p + p {
 	text-indent: 2em;
 }
 
-ul + p {
-	margin-top: var(--margin);
+body {
+	padding: 3em;
+}
+
+header > a {
+	font-weight: bold;
 }
 
 nav {
@@ -145,7 +126,11 @@ ul {
 	padding-left: calc(var(--margin) * 2);
 }
 
-/* LAYOUT UTILITIES */
+ul + p {
+	margin-top: var(--margin);
+}
+
+/* Utilities: Layout */
 
 /* Use columns for descendant elements */
 .columns {
@@ -168,7 +153,6 @@ ul {
 	flex: 1 0 24em;
 	margin: 0 var(--margin);
 }
-
 
 .lede {
 	color: var(--grey-darkest);
