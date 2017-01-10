@@ -88,10 +88,6 @@ nav a {
 
 /* General */
 
-header {
-	margin: var(--margin) 0;
-}
-
 article img {
 	width: 100%;
 }
@@ -110,6 +106,10 @@ body {
 	max-width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+header {
+	margin: var(--margin) 0;
 }
 
 nav {
