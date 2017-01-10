@@ -80,10 +80,14 @@ header a {
 	color: #111;
 }
 
+header a,
+nav a {
+	text-decoration: none;
+}
+
 nav a {
 	color: var(--grey-dark);
 	font-style: italic;
-	text-decoration: none;
 }
 
 /* General */
