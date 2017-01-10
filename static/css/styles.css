@@ -78,23 +78,18 @@ a:focus, a:hover {
 
 header a {
 	color: #111;
-	font-weight: bold;
-}
-
-header a,
-nav a {
-	text-decoration: none;
 }
 
 nav a {
 	color: var(--grey-dark);
 	font-style: italic;
+	text-decoration: none;
 }
 
 /* General */
 
-article header {
-	padding: var(--margin) 0;
+header {
+	margin: var(--margin) 0;
 }
 
 article img {
