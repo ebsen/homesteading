@@ -1,34 +1,17 @@
+@import url("_colors.css");
+
 :root {
 	--border-radius: .3em;
 	--font-family-serif: Charter, Merriweather, Georgia, "Times New Roman", Times, serif;
 	--font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	--margin: 1em;
 
-	color: #111;
+	background: var(--white);
+	color: var(--near-black);
 	font-family: var(--font-family-serif);
 /* 	line-height: 1.5; */
 
-	/* COLORS */
-	/* eee */
-	/* 333 */
-	/* 777 */
-	/* 444 */
-	/* ddd */
-	/* fff */
-	/* 555 */
-	/* ccc */
-	/* f0f0f0 */
-	/* 111 */
-	/* 999 */
-	/* black */
 	--blue: #0050D4;
-	--grey-light: #ddd;
-	/* grey-light */
-	--grey-dark: #777;
-	--grey-darkest: #555;
-	/* color eee bg 333 */
-	--grey-lightest: #eee;
-	--white: #fff;
 
 /*
 	$grid-breakpoints: (
@@ -76,8 +59,16 @@ a:focus, a:hover {
 	content: '2192';
 }
 
+body > header a {
+	color: var(--near-white);
+}
+
 header a {
 	color: #111;
+}
+
+header > a {
+	font-weight: bold;
 }
 
 header a,
@@ -86,11 +77,20 @@ nav a {
 }
 
 nav a {
-	color: var(--grey-dark);
+	color: var(--gray);
 	font-style: italic;
 }
 
 /* General */
+
+abbr {
+	font-variant: small-caps;
+}
+
+article {
+	border-bottom: 1px solid var(--gray);
+	padding-bottom: var(--margin);
+}
 
 article img {
 	width: 100%;
@@ -112,7 +112,26 @@ body {
 	margin-right: auto;
 }
 
-header {
+body > header {
+	background: center/cover url(/images/dino.jpg);
+	padding: 3em 1em var(--margin);
+	margin: calc(var(--margin) * -1);
+	text-shadow: 0 0 .25em var(--near-black);
+}
+/*
+@media (orientation: landscape) {
+	body > header {
+		font-size: 2em;
+		padding-top: 50vh;
+	}
+}
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family-sans-serif);
+}
+
+article header {
 	margin: var(--margin) 0;
 }
 
@@ -121,9 +140,9 @@ nav {
 }
 
 time {
-	color: var(--grey-dark);
+	color: var(--gray);
 	display: block;
-	font-style: italic;
+	font-family: var(--font-family-sans-serif);
 	margin-top: 1em;
 }
 
@@ -160,7 +179,7 @@ ul + p {
 }
 
 .lede {
-	color: var(--grey-darkest);
+	color: var(--mid-gray);
 	font-style: italic;
 }
 
