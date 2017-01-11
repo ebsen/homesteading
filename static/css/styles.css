@@ -113,7 +113,7 @@ body {
 }
 
 body > header {
-	background: center/cover url(/images/dino.jpg);
+	background: top/cover url(/images/dino.jpg);
 	padding: 3em 1em var(--margin);
 	margin: calc(var(--margin) * -1);
 	text-shadow: 0 0 .25em var(--near-black);
@@ -143,7 +143,8 @@ time {
 	color: var(--gray);
 	display: block;
 	font-family: var(--font-family-sans-serif);
-	margin-top: 1em;
+	margin-top: 0;
+	text-align: right;
 }
 
 ul {
